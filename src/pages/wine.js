@@ -5,6 +5,7 @@ import Image from "next/image";
 import Star from "@/assets/star.png";
 import InfoIcon from '@mui/icons-material/Info';
 import { ChevronRight } from "@mui/icons-material";
+import EditableProgressBar from "@/components/ProgressBar";
 
 function wine() {
 const [isLightboxOpen, setIsLightboxOpen] = useState(false);
@@ -131,22 +132,23 @@ const [isLightboxOpen, setIsLightboxOpen] = useState(false);
             <div className="px-[20px] flex flex-col space-y-5 my-5 justifify-center items-center">
                 <div className="flex space-x-1 ">
                     <span className="text-right block w-[20vw]">Light</span>
-                    <div className="bg-gray-200 rounded-full w-[60vw] h-[10px]"></div>
+                    {/* <div className="bg-gray-200 rounded-full w-[60vw] h-[10px] mt-3"></div> */}
+                    <EditableProgressBar />
                     <span className="text-left block w-[20vw]">Bold</span>
                 </div>
                 <div className="flex space-x-1">
                     <span className="text-right block w-[20vw]">Smooth</span>
-                    <div className="bg-gray-200 rounded-full w-[60vw] h-[10px]"></div>
+                    <div className="bg-gray-200 rounded-full w-[60vw] h-[10px] mt-3"></div>
                     <span className="text-left block w-[20vw]">Tannic</span>
                 </div>
                 <div className="flex space-x-1">
                 <span className="text-right">Dry</span>
-                    <div className="bg-gray-200 rounded-lg py-[1px] w-[60vw]"></div>
+                    <div className="bg-gray-200 rounded-full w-[60vw] h-[10px] mt-3"></div>
                     <span className="text-left">Sweet</span>
                 </div>
                 <div className="flex space-x-1">
                 <span className="text-right">Soft</span>
-                    <div className="bg-gray-200 rounded-lg py-[1px] w-[60vw]"></div>
+                <div className="bg-gray-200 rounded-full w-[60vw] h-[10px] mt-3"></div>
                     <span className="text-left">Acidic</span>
                 </div>
 

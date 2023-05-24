@@ -60,7 +60,7 @@ const [isLightboxOpen, setIsLightboxOpen] = useState(false);
           </div>
           <span className="text-gray-700">996 rating</span>
         </div>
-        <div className="flex flex-row bg-white pb-10 mt-[190px]">
+        <div className="flex flex-row bg-white pb-10 mt-[100px]">
           <div className="w-[50vw] h-fit"></div>
           <div className="w-[50vw] pr-10 flex flex-col justify-center items-center">
             {/* <div className=" mt-[70px] flex-col justify-center items-center ">

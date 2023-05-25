@@ -6,6 +6,13 @@ import Star from "@/assets/star.png";
 import InfoIcon from '@mui/icons-material/Info';
 import { ChevronRight } from "@mui/icons-material";
 import EditableProgressBar from "@/components/ProgressBar";
+import { Swiper, SwiperSlide } from "swiper/react";
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/pagination";
+
+// import required modules
+import { Pagination } from "swiper";
 
 function wine() {
 const [isLightboxOpen, setIsLightboxOpen] = useState(false);
@@ -81,6 +88,34 @@ const [isLightboxOpen, setIsLightboxOpen] = useState(false);
        
 
       </div>
+      <div className="bg-white my-3 py-5 px-3 text-gray-700">
+            <h1 className="text-2xl">Taste Characteristics</h1>
+            <span>Based on 6720 user reviews</span>
+            <div className="px-[20px] flex flex-col space-y-5 my-5 justifify-center items-center">
+                <div className="flex space-x-1">
+                    <span className="text-right block w-[20vw]">Light</span>
+                    <div className="bg-gray-200 rounded-full w-[60vw] h-[10px] mt-3"></div>
+                    {/* <EditableProgressBar pw={"600vw"}/> */}
+                    <span className="text-left block w-[20vw]">Bold</span>
+                </div>
+                <div className="flex space-x-1">
+                    <span className="text-right block w-[20vw]">Smooth</span>
+                    <div className="bg-gray-200 rounded-full w-[60vw] h-[10px] mt-3"></div>
+                    <span className="text-left block w-[20vw]">Tannic</span>
+                </div>
+                <div className="flex space-x-1">
+                <span className="text-right">Dry</span>
+                    <div className="bg-gray-200 rounded-full w-[60vw] h-[10px] mt-3"></div>
+                    <span className="text-left">Sweet</span>
+                </div>
+                <div className="flex space-x-1">
+                <span className="text-right">Soft</span>
+                <div className="bg-gray-200 rounded-full w-[60vw] h-[10px] mt-3"></div>
+                    <span className="text-left">Acidic</span>
+                </div>
+
+            </div>
+        </div>
        <div className="bg-white my-3 py-5 px-3 text-center flex flex-col justify-center items-center">
             <div>
                 <h4 className="py-5 text-2xl font-bold pt-5">Region</h4>
@@ -126,34 +161,7 @@ const [isLightboxOpen, setIsLightboxOpen] = useState(false);
         </div>
         </div>
 
-        <div className="bg-white my-3 py-5 px-3 text-gray-700">
-            <h1 className="text-2xl">Taste Characteristics</h1>
-            <span>Based on 6720 user reviews</span>
-            <div className="px-[20px] flex flex-col space-y-5 my-5 justifify-center items-center">
-                <div className="flex space-x-1 ">
-                    <span className="text-right block w-[20vw]">Light</span>
-                    {/* <div className="bg-gray-200 rounded-full w-[60vw] h-[10px] mt-3"></div> */}
-                    <EditableProgressBar />
-                    <span className="text-left block w-[20vw]">Bold</span>
-                </div>
-                <div className="flex space-x-1">
-                    <span className="text-right block w-[20vw]">Smooth</span>
-                    <div className="bg-gray-200 rounded-full w-[60vw] h-[10px] mt-3"></div>
-                    <span className="text-left block w-[20vw]">Tannic</span>
-                </div>
-                <div className="flex space-x-1">
-                <span className="text-right">Dry</span>
-                    <div className="bg-gray-200 rounded-full w-[60vw] h-[10px] mt-3"></div>
-                    <span className="text-left">Sweet</span>
-                </div>
-                <div className="flex space-x-1">
-                <span className="text-right">Soft</span>
-                <div className="bg-gray-200 rounded-full w-[60vw] h-[10px] mt-3"></div>
-                    <span className="text-left">Acidic</span>
-                </div>
-
-            </div>
-        </div>
+       
 
         <div className="bg-white my-3 py-5 px-3 text-gray-700">
             <h1 className="bold pb-2 font-semibold">Food Pairing</h1>
@@ -179,7 +187,27 @@ const [isLightboxOpen, setIsLightboxOpen] = useState(false);
               </div>
             </div>
           </div>
-
+          <div className="bg-white my-3 py-5 px-3 text-gray-700">
+            <h1 className="bold pb-2 font-semibold">Bordeaux left Bank <br/><span>Pauillic</span></h1>
+            <div className="flex flex-col justify-between">
+            <p>A nice medium to fuller bidied Malbec. its is boasting dark blackberry and plum fruit flavours coupled with notes of baking spice, cocoa toast and vanilla.</p>
+            <p>A nice medium to fuller bidied Malbec. its is boasting dark blackberry and plum fruit flavours coupled with notes of baking spice, cocoa toast and vanilla.</p>
+            </div>
+            <Swiper 
+              pagination={{
+            dynamicBullets: true,
+          }} modules={[Pagination]} className="mySwiper my-5 pb-10 px-10">
+              <SwiperSlide>
+              <p className=" pb-5 px-5">World Malbec day is celebrated on april 17th.</p>
+              </SwiperSlide>
+                <SwiperSlide>
+                <p className=" pb-5 px-5">World Malbec day is celebrated on april 17th.</p>
+              </SwiperSlide>
+              <SwiperSlide>
+              <p className=" pb-5 px-5">World Malbec day is celebrated on april 17th.</p>
+              </SwiperSlide>
+            </Swiper>
+          </div>
           <div className="bg-white my-3 py-5 px-3 text-gray-700">
             <h1 className="bold pb-2 font-semibold">Winemaker's notes</h1>
             <div className="flex justify-between">

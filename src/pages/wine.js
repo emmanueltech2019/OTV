@@ -7,12 +7,15 @@ import InfoIcon from '@mui/icons-material/Info';
 import { ChevronRight } from "@mui/icons-material";
 import EditableProgressBar from "@/components/ProgressBar";
 import { Swiper, SwiperSlide } from "swiper/react";
+import Flag from "@/assets/argentina-flag.png"
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
 
 // import required modules
 import { Pagination } from "swiper";
+import Navbar from '@/components/Navbar'
+import Footer from '@/components/Footer'
 
 function wine() {
 const [isLightboxOpen, setIsLightboxOpen] = useState(false);
@@ -51,6 +54,7 @@ const [isLightboxOpen, setIsLightboxOpen] = useState(false);
           </div>
         </div>
       )}
+      <Navbar/>
     <div id="main " className="h-fit w-screen bg-gray-200">
       <div className="relative h-[70vh] bg-white">
         <Image src={bg} alt="" />
@@ -119,7 +123,7 @@ const [isLightboxOpen, setIsLightboxOpen] = useState(false);
        <div className="bg-white my-3 py-5 px-3 text-center flex flex-col justify-center items-center">
             <div>
                 <h4 className="py-5 text-2xl font-bold pt-5">Region</h4>
-                <div className="bg-gray-200 rounded-full py-3 px-10"><p>Mendoza, Argentina</p></div>
+                <div className="bg-gray-200 rounded-full py-3 px-10 flex"><Image src={Flag} alt={""} className={'rounded-full h-10 w-10'}/><p>Mendoza, Argentina</p></div>
             </div>
             <div>
                 <h4 className="py-5 text-2xl font-bold pt-5">Region style</h4>
@@ -246,6 +250,7 @@ const [isLightboxOpen, setIsLightboxOpen] = useState(false);
             </div>
         </div> */}
     </div>
+    <Footer/>
   </>
   );
 }

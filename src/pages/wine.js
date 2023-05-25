@@ -193,7 +193,7 @@ const [isLightboxOpen, setIsLightboxOpen] = useState(false);
           </div>
           <div className="bg-white my-3 py-5 px-3 text-gray-700">
             <h1 className="bold pb-2 font-semibold">Bordeaux left Bank <br/><span>Pauillic</span></h1>
-            <div className="flex flex-col justify-between">
+            <div className="flex flex-col justify-between border-t border-b py-3">
             <p>A nice medium to fuller bidied Malbec. its is boasting dark blackberry and plum fruit flavours coupled with notes of baking spice, cocoa toast and vanilla.</p>
             <p>A nice medium to fuller bidied Malbec. its is boasting dark blackberry and plum fruit flavours coupled with notes of baking spice, cocoa toast and vanilla.</p>
             </div>

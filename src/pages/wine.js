@@ -8,6 +8,7 @@ import { ChevronRight } from "@mui/icons-material";
 import EditableProgressBar from "@/components/ProgressBar";
 import { Swiper, SwiperSlide } from "swiper/react";
 import Flag from "@/assets/argentina-flag.png"
+import StarIcon from '@mui/icons-material/Star';
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
@@ -64,11 +65,11 @@ const [isLightboxOpen, setIsLightboxOpen] = useState(false);
         <div className="bg-white h-32 w-32 rounded-full absolute top-[200px] right-5 flex flex-col justify-center items-center">
           <b className="text-3xl">4.8</b>
           <div className="flex items-center">
-            <Image src={Star} className="w-[10px] h-[10px]" alt="" />
-            <Image src={Star} className="w-[10px] h-[10px]" alt="" />
-            <Image src={Star} className="w-[10px] h-[10px]" alt="" />
-            <Image src={Star} className="w-[10px] h-[10px]" alt="" />
-            <Image src={Star} className="w-[10px] h-[10px]" alt="" />
+            <StarIcon className="w-[14px] h-[14px] text-[#53528f]" alt="" />
+            <StarIcon className="w-[14px] h-[14px] text-[#53528f]" alt="" />
+            <StarIcon className="w-[14px] h-[14px] text-[#53528f]" alt="" />
+            <StarIcon className="w-[14px] h-[14px] text-[#53528f]" alt="" />
+            <StarIcon className="w-[14px] h-[14px] text-[#53528f]" alt="" />
           </div>
           <span className="text-gray-700">996 rating</span>
         </div>
@@ -84,9 +85,9 @@ const [isLightboxOpen, setIsLightboxOpen] = useState(false);
             <div className="rounded-l-lg border-l border-gray-500 text-gray-500 text-3xl text-center py-3 w-[180px] px-5 border mt-[40px]">
               $1,208.11
             </div>
-            <span className="text-[#853924] text-2xl text-center">
+            {/* <span className="text-[#853924] text-2xl text-center">
               Best price from Pauillic winery
-            </span>
+            </span> */}
           </div>
         </div>
        

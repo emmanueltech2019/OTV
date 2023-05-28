@@ -7,7 +7,7 @@ import Footer from "@/components/Footer";
 import Section1 from "@/components/Section1";
 import Section2 from "@/components/Section2";
 import Navbar2 from "@/components/Navbar2";
-import Newsletter from "@/components/newsletter";
+import Newsletter from "@/components/Newsletter";
 
 const inter = Inter({ subsets: ["latin"] });
 

@@ -77,13 +77,12 @@ const [isLightboxOpen, setIsLightboxOpen] = useState(false);
         <div className="flex flex-row bg-white pb-10 mt-[100px]">
           <div className="w-[50vw] h-fit"></div>
           <div className="w-[50vw] pr-10 flex flex-col justify-center items-center">
-            <div className=" mt-[70px] ">
-                {/* <div className="bg-gray-500 h-20 w-20 rounded-full mt-10 ml-10"></div> */}
-              <span className="text-[#53528f] text-2xl">
-                Wine Name
-              </span><br/>
-              <b>Wine short details</b>
-            </div>
+            {/* <div className=" mt-[70px] flex-col justify-center items-center ">
+                <div className="bg-gray-500 h-20 w-20 rounded-full mt-10 ml-10"></div>
+              <span className="text-[#00845F] text-2xl">
+                Calculate your personal match
+              </span>
+            </div> */}
             <div className="rounded-l-lg border-l border-gray-500 text-gray-500 text-3xl text-center py-3 w-[180px] px-5 border mt-[40px]">
               $1,208.11
             </div>

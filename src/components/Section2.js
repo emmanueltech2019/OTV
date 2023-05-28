@@ -3,7 +3,7 @@ import React from "react";
 function Section2({text, color, pt}) {
   return (
     <div>
-      <div className={`spacing--bottom--xxxl pt-[${pt}px]`}>
+      <div className={`spacing--bottom--xxxl pt-[${pt}]`} style={{paddingTop:pt}}>
         <section className="o-horizontalScrollContainer">
           <div className="o-horizontalScrollContainer__heading container">
             <div className="m-containerIntro ">
@@ -81,7 +81,7 @@ function Section2({text, color, pt}) {
                     />
                     <picture>
                       <source
-                        srcset="https://res.cloudinary.com/wise-solution-inc/image/upload/v1685105378/WhatsApp_Image_2023-05-24_at_16.07.52_ydvcip.jpg?itok=wQFEyYj6 150w,
+                        srcSet="https://res.cloudinary.com/wise-solution-inc/image/upload/v1685105378/WhatsApp_Image_2023-05-24_at_16.07.52_ydvcip.jpg?itok=wQFEyYj6 150w,
   https://res.cloudinary.com/wise-solution-inc/image/upload/v1685105378/WhatsApp_Image_2023-05-24_at_16.07.52_ydvcip.jpg?itok=_tEH2n4V 250w,
   https://res.cloudinary.com/wise-solution-inc/image/upload/v1685105378/WhatsApp_Image_2023-05-24_at_16.07.52_ydvcip.jpg?itok=4O6WBzMx 500w,
   https://res.cloudinary.com/wise-solution-inc/image/upload/v1685105378/WhatsApp_Image_2023-05-24_at_16.07.52_ydvcip.jpg?itok=9rqQ4x2T 680w,
@@ -92,7 +92,7 @@ function Section2({text, color, pt}) {
                       />
                         <img
                           sizes="(max-width: 1000px) 100vw, 1000px"
-                          srcset="https://res.cloudinary.com/wise-solution-inc/image/upload/v1685105378/WhatsApp_Image_2023-05-24_at_16.07.52_ydvcip.jpg?itok=wQFEyYj6 150w,
+                          srcSet="https://res.cloudinary.com/wise-solution-inc/image/upload/v1685105378/WhatsApp_Image_2023-05-24_at_16.07.52_ydvcip.jpg?itok=wQFEyYj6 150w,
   https://res.cloudinary.com/wise-solution-inc/image/upload/v1685105378/WhatsApp_Image_2023-05-24_at_16.07.52_ydvcip.jpg?itok=_tEH2n4V 250w,
   https://res.cloudinary.com/wise-solution-inc/image/upload/v1685105378/WhatsApp_Image_2023-05-24_at_16.07.52_ydvcip.jpg?itok=4O6WBzMx 500w,
   https://res.cloudinary.com/wise-solution-inc/image/upload/v1685105378/WhatsApp_Image_2023-05-24_at_16.07.52_ydvcip.jpg?itok=9rqQ4x2T 680w,
@@ -119,7 +119,7 @@ function Section2({text, color, pt}) {
                     <noscript>
                       <picture>
                         <source
-                          srcset="https://res.cloudinary.com/wise-solution-inc/image/upload/v1685105378/WhatsApp_Image_2023-05-24_at_16.07.52_ydvcip.jpg?itok=wQFEyYj6 150w,
+                          srcSet="https://res.cloudinary.com/wise-solution-inc/image/upload/v1685105378/WhatsApp_Image_2023-05-24_at_16.07.52_ydvcip.jpg?itok=wQFEyYj6 150w,
   https://res.cloudinary.com/wise-solution-inc/image/upload/v1685105378/WhatsApp_Image_2023-05-24_at_16.07.52_ydvcip.jpg?itok=_tEH2n4V 250w,
   https://res.cloudinary.com/wise-solution-inc/image/upload/v1685105378/WhatsApp_Image_2023-05-24_at_16.07.52_ydvcip.jpg?itok=4O6WBzMx 500w,
   https://res.cloudinary.com/wise-solution-inc/image/upload/v1685105378/WhatsApp_Image_2023-05-24_at_16.07.52_ydvcip.jpg?itok=9rqQ4x2T 680w,
@@ -131,7 +131,7 @@ function Section2({text, color, pt}) {
                         <img
                           loading="lazy"
                           sizes="(max-width: 1000px) 100vw, 1000px"
-                          srcset="https://res.cloudinary.com/wise-solution-inc/image/upload/v1685105378/WhatsApp_Image_2023-05-24_at_16.07.52_ydvcip.jpg?itok=wQFEyYj6 150w,
+                          srcSet="https://res.cloudinary.com/wise-solution-inc/image/upload/v1685105378/WhatsApp_Image_2023-05-24_at_16.07.52_ydvcip.jpg?itok=wQFEyYj6 150w,
   https://res.cloudinary.com/wise-solution-inc/image/upload/v1685105378/WhatsApp_Image_2023-05-24_at_16.07.52_ydvcip.jpg?itok=_tEH2n4V 250w,
   https://res.cloudinary.com/wise-solution-inc/image/upload/v1685105378/WhatsApp_Image_2023-05-24_at_16.07.52_ydvcip.jpg?itok=4O6WBzMx 500w,
   https://res.cloudinary.com/wise-solution-inc/image/upload/v1685105378/WhatsApp_Image_2023-05-24_at_16.07.52_ydvcip.jpg?itok=9rqQ4x2T 680w,
@@ -208,7 +208,7 @@ function Section2({text, color, pt}) {
                     />
                     <picture>
                       <source
-                        srcset="https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_150/public/2020-06/VC_PlacesToVisit_LosAngelesCounty_RF_1170794243.jpg?itok=nJIFRedv 150w,
+                        srcSet="https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_150/public/2020-06/VC_PlacesToVisit_LosAngelesCounty_RF_1170794243.jpg?itok=nJIFRedv 150w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_250/public/2020-06/VC_PlacesToVisit_LosAngelesCounty_RF_1170794243.jpg?itok=DvuMU_1R 250w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_500/public/2020-06/VC_PlacesToVisit_LosAngelesCounty_RF_1170794243.jpg?itok=TU2VBFsN 500w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_680/public/2020-06/VC_PlacesToVisit_LosAngelesCounty_RF_1170794243.jpg?itok=jfdALGyA 680w,
@@ -219,7 +219,7 @@ function Section2({text, color, pt}) {
                       />
                         <img
                           sizes="(max-width: 1000px) 100vw, 1000px"
-                          srcset="https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_150/public/2020-06/VC_PlacesToVisit_LosAngelesCounty_RF_1170794243.jpg?itok=nJIFRedv 150w,
+                          srcSet="https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_150/public/2020-06/VC_PlacesToVisit_LosAngelesCounty_RF_1170794243.jpg?itok=nJIFRedv 150w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_250/public/2020-06/VC_PlacesToVisit_LosAngelesCounty_RF_1170794243.jpg?itok=DvuMU_1R 250w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_500/public/2020-06/VC_PlacesToVisit_LosAngelesCounty_RF_1170794243.jpg?itok=TU2VBFsN 500w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_680/public/2020-06/VC_PlacesToVisit_LosAngelesCounty_RF_1170794243.jpg?itok=jfdALGyA 680w,
@@ -246,7 +246,7 @@ function Section2({text, color, pt}) {
                     <noscript>
                       <picture>
                         <source
-                          srcset="https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_150/public/2020-06/VC_PlacesToVisit_LosAngelesCounty_RF_1170794243.jpg?itok=nJIFRedv 150w,
+                          srcSet="https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_150/public/2020-06/VC_PlacesToVisit_LosAngelesCounty_RF_1170794243.jpg?itok=nJIFRedv 150w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_250/public/2020-06/VC_PlacesToVisit_LosAngelesCounty_RF_1170794243.jpg?itok=DvuMU_1R 250w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_500/public/2020-06/VC_PlacesToVisit_LosAngelesCounty_RF_1170794243.jpg?itok=TU2VBFsN 500w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_680/public/2020-06/VC_PlacesToVisit_LosAngelesCounty_RF_1170794243.jpg?itok=jfdALGyA 680w,
@@ -258,7 +258,7 @@ function Section2({text, color, pt}) {
                         <img
                           loading="lazy"
                           sizes="(max-width: 1000px) 100vw, 1000px"
-                          srcset="https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_150/public/2020-06/VC_PlacesToVisit_LosAngelesCounty_RF_1170794243.jpg?itok=nJIFRedv 150w,
+                          srcSet="https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_150/public/2020-06/VC_PlacesToVisit_LosAngelesCounty_RF_1170794243.jpg?itok=nJIFRedv 150w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_250/public/2020-06/VC_PlacesToVisit_LosAngelesCounty_RF_1170794243.jpg?itok=DvuMU_1R 250w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_500/public/2020-06/VC_PlacesToVisit_LosAngelesCounty_RF_1170794243.jpg?itok=TU2VBFsN 500w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_680/public/2020-06/VC_PlacesToVisit_LosAngelesCounty_RF_1170794243.jpg?itok=jfdALGyA 680w,
@@ -335,7 +335,7 @@ function Section2({text, color, pt}) {
                     />
                     <picture>
                       <source
-                        srcset="https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_150/public/2020-07/OC_Anaheim%20Packing%20House.jpg?itok=8yFGhEm3 150w,
+                        srcSet="https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_150/public/2020-07/OC_Anaheim%20Packing%20House.jpg?itok=8yFGhEm3 150w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_250/public/2020-07/OC_Anaheim%20Packing%20House.jpg?itok=PmUVPTAE 250w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_500/public/2020-07/OC_Anaheim%20Packing%20House.jpg?itok=rJdSOv8N 500w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_680/public/2020-07/OC_Anaheim%20Packing%20House.jpg?itok=tUax8g3- 680w,
@@ -346,7 +346,7 @@ function Section2({text, color, pt}) {
                       />
                         <img
                           sizes="(max-width: 823px) 100vw, 823px"
-                          srcset="https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_150/public/2020-07/OC_Anaheim%20Packing%20House.jpg?itok=8yFGhEm3 150w,
+                          srcSet="https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_150/public/2020-07/OC_Anaheim%20Packing%20House.jpg?itok=8yFGhEm3 150w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_250/public/2020-07/OC_Anaheim%20Packing%20House.jpg?itok=PmUVPTAE 250w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_500/public/2020-07/OC_Anaheim%20Packing%20House.jpg?itok=rJdSOv8N 500w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_680/public/2020-07/OC_Anaheim%20Packing%20House.jpg?itok=tUax8g3- 680w,
@@ -373,7 +373,7 @@ function Section2({text, color, pt}) {
                     <noscript>
                       <picture>
                         <source
-                          srcset="https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_150/public/2020-07/OC_Anaheim%20Packing%20House.jpg?itok=8yFGhEm3 150w,
+                          srcSet="https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_150/public/2020-07/OC_Anaheim%20Packing%20House.jpg?itok=8yFGhEm3 150w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_250/public/2020-07/OC_Anaheim%20Packing%20House.jpg?itok=PmUVPTAE 250w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_500/public/2020-07/OC_Anaheim%20Packing%20House.jpg?itok=rJdSOv8N 500w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_680/public/2020-07/OC_Anaheim%20Packing%20House.jpg?itok=tUax8g3- 680w,
@@ -385,7 +385,7 @@ function Section2({text, color, pt}) {
                         <img
                           loading="lazy"
                           sizes="(max-width: 823px) 100vw, 823px"
-                          srcset="https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_150/public/2020-07/OC_Anaheim%20Packing%20House.jpg?itok=8yFGhEm3 150w,
+                          srcSet="https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_150/public/2020-07/OC_Anaheim%20Packing%20House.jpg?itok=8yFGhEm3 150w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_250/public/2020-07/OC_Anaheim%20Packing%20House.jpg?itok=PmUVPTAE 250w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_500/public/2020-07/OC_Anaheim%20Packing%20House.jpg?itok=rJdSOv8N 500w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_680/public/2020-07/OC_Anaheim%20Packing%20House.jpg?itok=tUax8g3- 680w,
@@ -462,7 +462,7 @@ function Section2({text, color, pt}) {
                     />
                     <picture>
                       <source
-                        srcset="https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_150/public/SanDiego_Skyline_JohnBahu_1280x642_downsized.jpg?itok=6pd9lOrQ 150w,
+                        srcSet="https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_150/public/SanDiego_Skyline_JohnBahu_1280x642_downsized.jpg?itok=6pd9lOrQ 150w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_250/public/SanDiego_Skyline_JohnBahu_1280x642_downsized.jpg?itok=AzioMkdE 250w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_500/public/SanDiego_Skyline_JohnBahu_1280x642_downsized.jpg?itok=99ZTL9qS 500w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_680/public/SanDiego_Skyline_JohnBahu_1280x642_downsized.jpg?itok=7l9ah4v4 680w,
@@ -473,7 +473,7 @@ function Section2({text, color, pt}) {
                       />
                         <img
                           sizes="(max-width: 1000px) 100vw, 1000px"
-                          srcset="https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_150/public/SanDiego_Skyline_JohnBahu_1280x642_downsized.jpg?itok=6pd9lOrQ 150w,
+                          srcSet="https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_150/public/SanDiego_Skyline_JohnBahu_1280x642_downsized.jpg?itok=6pd9lOrQ 150w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_250/public/SanDiego_Skyline_JohnBahu_1280x642_downsized.jpg?itok=AzioMkdE 250w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_500/public/SanDiego_Skyline_JohnBahu_1280x642_downsized.jpg?itok=99ZTL9qS 500w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_680/public/SanDiego_Skyline_JohnBahu_1280x642_downsized.jpg?itok=7l9ah4v4 680w,
@@ -500,7 +500,7 @@ function Section2({text, color, pt}) {
                     <noscript>
                       <picture>
                         <source
-                          srcset="https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_150/public/SanDiego_Skyline_JohnBahu_1280x642_downsized.jpg?itok=6pd9lOrQ 150w,
+                          srcSet="https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_150/public/SanDiego_Skyline_JohnBahu_1280x642_downsized.jpg?itok=6pd9lOrQ 150w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_250/public/SanDiego_Skyline_JohnBahu_1280x642_downsized.jpg?itok=AzioMkdE 250w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_500/public/SanDiego_Skyline_JohnBahu_1280x642_downsized.jpg?itok=99ZTL9qS 500w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_680/public/SanDiego_Skyline_JohnBahu_1280x642_downsized.jpg?itok=7l9ah4v4 680w,
@@ -512,7 +512,7 @@ function Section2({text, color, pt}) {
                         <img
                           loading="lazy"
                           sizes="(max-width: 1000px) 100vw, 1000px"
-                          srcset="https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_150/public/SanDiego_Skyline_JohnBahu_1280x642_downsized.jpg?itok=6pd9lOrQ 150w,
+                          srcSet="https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_150/public/SanDiego_Skyline_JohnBahu_1280x642_downsized.jpg?itok=6pd9lOrQ 150w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_250/public/SanDiego_Skyline_JohnBahu_1280x642_downsized.jpg?itok=AzioMkdE 250w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_500/public/SanDiego_Skyline_JohnBahu_1280x642_downsized.jpg?itok=99ZTL9qS 500w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_680/public/SanDiego_Skyline_JohnBahu_1280x642_downsized.jpg?itok=7l9ah4v4 680w,
@@ -589,7 +589,7 @@ function Section2({text, color, pt}) {
                     />
                     <picture>
                       <source
-                        srcset="https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_150/public/vc_spotlight_santabarbara_hero_st_rm_529573764_1280x640.jpg?itok=Wfw9NNiY 150w,
+                        srcSet="https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_150/public/vc_spotlight_santabarbara_hero_st_rm_529573764_1280x640.jpg?itok=Wfw9NNiY 150w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_250/public/vc_spotlight_santabarbara_hero_st_rm_529573764_1280x640.jpg?itok=8OpI4oXu 250w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_500/public/vc_spotlight_santabarbara_hero_st_rm_529573764_1280x640.jpg?itok=7RQrCTEF 500w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_680/public/vc_spotlight_santabarbara_hero_st_rm_529573764_1280x640.jpg?itok=RyDHBCjD 680w,
@@ -600,7 +600,7 @@ function Section2({text, color, pt}) {
                       />
                         <img
                           sizes="(max-width: 1000px) 100vw, 1000px"
-                          srcset="https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_150/public/vc_spotlight_santabarbara_hero_st_rm_529573764_1280x640.jpg?itok=Wfw9NNiY 150w,
+                          srcSet="https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_150/public/vc_spotlight_santabarbara_hero_st_rm_529573764_1280x640.jpg?itok=Wfw9NNiY 150w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_250/public/vc_spotlight_santabarbara_hero_st_rm_529573764_1280x640.jpg?itok=8OpI4oXu 250w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_500/public/vc_spotlight_santabarbara_hero_st_rm_529573764_1280x640.jpg?itok=7RQrCTEF 500w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_680/public/vc_spotlight_santabarbara_hero_st_rm_529573764_1280x640.jpg?itok=RyDHBCjD 680w,
@@ -627,7 +627,7 @@ function Section2({text, color, pt}) {
                     <noscript>
                       <picture>
                         <source
-                          srcset="https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_150/public/vc_spotlight_santabarbara_hero_st_rm_529573764_1280x640.jpg?itok=Wfw9NNiY 150w,
+                          srcSet="https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_150/public/vc_spotlight_santabarbara_hero_st_rm_529573764_1280x640.jpg?itok=Wfw9NNiY 150w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_250/public/vc_spotlight_santabarbara_hero_st_rm_529573764_1280x640.jpg?itok=8OpI4oXu 250w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_500/public/vc_spotlight_santabarbara_hero_st_rm_529573764_1280x640.jpg?itok=7RQrCTEF 500w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_680/public/vc_spotlight_santabarbara_hero_st_rm_529573764_1280x640.jpg?itok=RyDHBCjD 680w,
@@ -639,7 +639,7 @@ function Section2({text, color, pt}) {
                         <img
                           loading="lazy"
                           sizes="(max-width: 1000px) 100vw, 1000px"
-                          srcset="https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_150/public/vc_spotlight_santabarbara_hero_st_rm_529573764_1280x640.jpg?itok=Wfw9NNiY 150w,
+                          srcSet="https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_150/public/vc_spotlight_santabarbara_hero_st_rm_529573764_1280x640.jpg?itok=Wfw9NNiY 150w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_250/public/vc_spotlight_santabarbara_hero_st_rm_529573764_1280x640.jpg?itok=8OpI4oXu 250w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_500/public/vc_spotlight_santabarbara_hero_st_rm_529573764_1280x640.jpg?itok=7RQrCTEF 500w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_680/public/vc_spotlight_santabarbara_hero_st_rm_529573764_1280x640.jpg?itok=RyDHBCjD 680w,
@@ -716,7 +716,7 @@ function Section2({text, color, pt}) {
                     />
                     <picture>
                       <source
-                        srcset="https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_150/public/VCW_D_SLO_T6_CalPolyPeaks_DSCF4148RGB_1280x642.jpg?itok=bzhi9oLD 150w,
+                        srcSet="https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_150/public/VCW_D_SLO_T6_CalPolyPeaks_DSCF4148RGB_1280x642.jpg?itok=bzhi9oLD 150w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_250/public/VCW_D_SLO_T6_CalPolyPeaks_DSCF4148RGB_1280x642.jpg?itok=TgsoRXmh 250w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_500/public/VCW_D_SLO_T6_CalPolyPeaks_DSCF4148RGB_1280x642.jpg?itok=fjd7iho5 500w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_680/public/VCW_D_SLO_T6_CalPolyPeaks_DSCF4148RGB_1280x642.jpg?itok=Ts2cYA7N 680w,
@@ -727,7 +727,7 @@ function Section2({text, color, pt}) {
                       />
                         <img
                           sizes="(max-width: 1000px) 100vw, 1000px"
-                          srcset="https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_150/public/VCW_D_SLO_T6_CalPolyPeaks_DSCF4148RGB_1280x642.jpg?itok=bzhi9oLD 150w,
+                          srcSet="https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_150/public/VCW_D_SLO_T6_CalPolyPeaks_DSCF4148RGB_1280x642.jpg?itok=bzhi9oLD 150w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_250/public/VCW_D_SLO_T6_CalPolyPeaks_DSCF4148RGB_1280x642.jpg?itok=TgsoRXmh 250w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_500/public/VCW_D_SLO_T6_CalPolyPeaks_DSCF4148RGB_1280x642.jpg?itok=fjd7iho5 500w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_680/public/VCW_D_SLO_T6_CalPolyPeaks_DSCF4148RGB_1280x642.jpg?itok=Ts2cYA7N 680w,
@@ -754,7 +754,7 @@ function Section2({text, color, pt}) {
                     <noscript>
                       <picture>
                         <source
-                          srcset="https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_150/public/VCW_D_SLO_T6_CalPolyPeaks_DSCF4148RGB_1280x642.jpg?itok=bzhi9oLD 150w,
+                          srcSet="https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_150/public/VCW_D_SLO_T6_CalPolyPeaks_DSCF4148RGB_1280x642.jpg?itok=bzhi9oLD 150w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_250/public/VCW_D_SLO_T6_CalPolyPeaks_DSCF4148RGB_1280x642.jpg?itok=TgsoRXmh 250w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_500/public/VCW_D_SLO_T6_CalPolyPeaks_DSCF4148RGB_1280x642.jpg?itok=fjd7iho5 500w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_680/public/VCW_D_SLO_T6_CalPolyPeaks_DSCF4148RGB_1280x642.jpg?itok=Ts2cYA7N 680w,
@@ -766,7 +766,7 @@ function Section2({text, color, pt}) {
                         <img
                           loading="lazy"
                           sizes="(max-width: 1000px) 100vw, 1000px"
-                          srcset="https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_150/public/VCW_D_SLO_T6_CalPolyPeaks_DSCF4148RGB_1280x642.jpg?itok=bzhi9oLD 150w,
+                          srcSet="https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_150/public/VCW_D_SLO_T6_CalPolyPeaks_DSCF4148RGB_1280x642.jpg?itok=bzhi9oLD 150w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_250/public/VCW_D_SLO_T6_CalPolyPeaks_DSCF4148RGB_1280x642.jpg?itok=TgsoRXmh 250w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_500/public/VCW_D_SLO_T6_CalPolyPeaks_DSCF4148RGB_1280x642.jpg?itok=fjd7iho5 500w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_680/public/VCW_D_SLO_T6_CalPolyPeaks_DSCF4148RGB_1280x642.jpg?itok=Ts2cYA7N 680w,
@@ -843,7 +843,7 @@ function Section2({text, color, pt}) {
                     />
                     <picture>
                       <source
-                        srcset="https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_150/public/monterey.jpg?itok=hDhMzF79 150w,
+                        srcSet="https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_150/public/monterey.jpg?itok=hDhMzF79 150w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_250/public/monterey.jpg?itok=jVxW2oOU 250w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_500/public/monterey.jpg?itok=U8bigkn2 500w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_680/public/monterey.jpg?itok=Hd_QFhz0 680w,
@@ -854,7 +854,7 @@ function Section2({text, color, pt}) {
                       />
                         <img
                           sizes="(max-width: 1000px) 100vw, 1000px"
-                          srcset="https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_150/public/monterey.jpg?itok=hDhMzF79 150w,
+                          srcSet="https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_150/public/monterey.jpg?itok=hDhMzF79 150w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_250/public/monterey.jpg?itok=jVxW2oOU 250w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_500/public/monterey.jpg?itok=U8bigkn2 500w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_680/public/monterey.jpg?itok=Hd_QFhz0 680w,
@@ -881,7 +881,7 @@ function Section2({text, color, pt}) {
                     <noscript>
                       <picture>
                         <source
-                          srcset="https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_150/public/monterey.jpg?itok=hDhMzF79 150w,
+                          srcSet="https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_150/public/monterey.jpg?itok=hDhMzF79 150w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_250/public/monterey.jpg?itok=jVxW2oOU 250w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_500/public/monterey.jpg?itok=U8bigkn2 500w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_680/public/monterey.jpg?itok=Hd_QFhz0 680w,
@@ -893,7 +893,7 @@ function Section2({text, color, pt}) {
                         <img
                           loading="lazy"
                           sizes="(max-width: 1000px) 100vw, 1000px"
-                          srcset="https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_150/public/monterey.jpg?itok=hDhMzF79 150w,
+                          srcSet="https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_150/public/monterey.jpg?itok=hDhMzF79 150w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_250/public/monterey.jpg?itok=jVxW2oOU 250w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_500/public/monterey.jpg?itok=U8bigkn2 500w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_680/public/monterey.jpg?itok=Hd_QFhz0 680w,
@@ -970,7 +970,7 @@ function Section2({text, color, pt}) {
                     />
                     <picture>
                       <source
-                        srcset="https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_150/public/palmsprings_1280x642.jpg?itok=cElO0BRC 150w,
+                        srcSet="https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_150/public/palmsprings_1280x642.jpg?itok=cElO0BRC 150w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_250/public/palmsprings_1280x642.jpg?itok=B0ESS8Ju 250w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_500/public/palmsprings_1280x642.jpg?itok=0eLE4gqp 500w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_680/public/palmsprings_1280x642.jpg?itok=H67D6CEC 680w,
@@ -981,7 +981,7 @@ function Section2({text, color, pt}) {
                       />
                         <img
                           sizes="(max-width: 1000px) 100vw, 1000px"
-                          srcset="https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_150/public/palmsprings_1280x642.jpg?itok=cElO0BRC 150w,
+                          srcSet="https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_150/public/palmsprings_1280x642.jpg?itok=cElO0BRC 150w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_250/public/palmsprings_1280x642.jpg?itok=B0ESS8Ju 250w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_500/public/palmsprings_1280x642.jpg?itok=0eLE4gqp 500w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_680/public/palmsprings_1280x642.jpg?itok=H67D6CEC 680w,
@@ -1008,7 +1008,7 @@ function Section2({text, color, pt}) {
                     <noscript>
                       <picture>
                         <source
-                          srcset="https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_150/public/palmsprings_1280x642.jpg?itok=cElO0BRC 150w,
+                          srcSet="https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_150/public/palmsprings_1280x642.jpg?itok=cElO0BRC 150w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_250/public/palmsprings_1280x642.jpg?itok=B0ESS8Ju 250w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_500/public/palmsprings_1280x642.jpg?itok=0eLE4gqp 500w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_680/public/palmsprings_1280x642.jpg?itok=H67D6CEC 680w,
@@ -1020,7 +1020,7 @@ function Section2({text, color, pt}) {
                         <img
                           loading="lazy"
                           sizes="(max-width: 1000px) 100vw, 1000px"
-                          srcset="https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_150/public/palmsprings_1280x642.jpg?itok=cElO0BRC 150w,
+                          srcSet="https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_150/public/palmsprings_1280x642.jpg?itok=cElO0BRC 150w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_250/public/palmsprings_1280x642.jpg?itok=B0ESS8Ju 250w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_500/public/palmsprings_1280x642.jpg?itok=0eLE4gqp 500w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_680/public/palmsprings_1280x642.jpg?itok=H67D6CEC 680w,
@@ -1097,7 +1097,7 @@ function Section2({text, color, pt}) {
                     />
                     <picture>
                       <source
-                        srcset="https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_150/public/VC_SpotlightSonoma_Module8_DowntownSonoma_Stock_RM_BADFTY_1280x640.jpg?itok=1Etn_K7w 150w,
+                        srcSet="https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_150/public/VC_SpotlightSonoma_Module8_DowntownSonoma_Stock_RM_BADFTY_1280x640.jpg?itok=1Etn_K7w 150w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_250/public/VC_SpotlightSonoma_Module8_DowntownSonoma_Stock_RM_BADFTY_1280x640.jpg?itok=o23eIZMH 250w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_500/public/VC_SpotlightSonoma_Module8_DowntownSonoma_Stock_RM_BADFTY_1280x640.jpg?itok=hG8aeYmn 500w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_680/public/VC_SpotlightSonoma_Module8_DowntownSonoma_Stock_RM_BADFTY_1280x640.jpg?itok=P9OYfu1i 680w,
@@ -1108,7 +1108,7 @@ function Section2({text, color, pt}) {
                       />
                         <img
                           sizes="(max-width: 1000px) 100vw, 1000px"
-                          srcset="https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_150/public/VC_SpotlightSonoma_Module8_DowntownSonoma_Stock_RM_BADFTY_1280x640.jpg?itok=1Etn_K7w 150w,
+                          srcSet="https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_150/public/VC_SpotlightSonoma_Module8_DowntownSonoma_Stock_RM_BADFTY_1280x640.jpg?itok=1Etn_K7w 150w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_250/public/VC_SpotlightSonoma_Module8_DowntownSonoma_Stock_RM_BADFTY_1280x640.jpg?itok=o23eIZMH 250w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_500/public/VC_SpotlightSonoma_Module8_DowntownSonoma_Stock_RM_BADFTY_1280x640.jpg?itok=hG8aeYmn 500w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_680/public/VC_SpotlightSonoma_Module8_DowntownSonoma_Stock_RM_BADFTY_1280x640.jpg?itok=P9OYfu1i 680w,
@@ -1135,7 +1135,7 @@ function Section2({text, color, pt}) {
                     <noscript>
                       <picture>
                         <source
-                          srcset="https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_150/public/VC_SpotlightSonoma_Module8_DowntownSonoma_Stock_RM_BADFTY_1280x640.jpg?itok=1Etn_K7w 150w,
+                          srcSet="https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_150/public/VC_SpotlightSonoma_Module8_DowntownSonoma_Stock_RM_BADFTY_1280x640.jpg?itok=1Etn_K7w 150w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_250/public/VC_SpotlightSonoma_Module8_DowntownSonoma_Stock_RM_BADFTY_1280x640.jpg?itok=o23eIZMH 250w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_500/public/VC_SpotlightSonoma_Module8_DowntownSonoma_Stock_RM_BADFTY_1280x640.jpg?itok=hG8aeYmn 500w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_680/public/VC_SpotlightSonoma_Module8_DowntownSonoma_Stock_RM_BADFTY_1280x640.jpg?itok=P9OYfu1i 680w,
@@ -1147,7 +1147,7 @@ function Section2({text, color, pt}) {
                         <img
                           loading="lazy"
                           sizes="(max-width: 1000px) 100vw, 1000px"
-                          srcset="https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_150/public/VC_SpotlightSonoma_Module8_DowntownSonoma_Stock_RM_BADFTY_1280x640.jpg?itok=1Etn_K7w 150w,
+                          srcSet="https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_150/public/VC_SpotlightSonoma_Module8_DowntownSonoma_Stock_RM_BADFTY_1280x640.jpg?itok=1Etn_K7w 150w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_250/public/VC_SpotlightSonoma_Module8_DowntownSonoma_Stock_RM_BADFTY_1280x640.jpg?itok=o23eIZMH 250w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_500/public/VC_SpotlightSonoma_Module8_DowntownSonoma_Stock_RM_BADFTY_1280x640.jpg?itok=hG8aeYmn 500w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_680/public/VC_SpotlightSonoma_Module8_DowntownSonoma_Stock_RM_BADFTY_1280x640.jpg?itok=P9OYfu1i 680w,
@@ -1224,7 +1224,7 @@ function Section2({text, color, pt}) {
                     />
                     <picture>
                       <source
-                        srcset="https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_150/public/vc_spotlightsacramento_sacramento_st_rf_187559989_1280x640.jpg?itok=ewPvFZws 150w,
+                        srcSet="https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_150/public/vc_spotlightsacramento_sacramento_st_rf_187559989_1280x640.jpg?itok=ewPvFZws 150w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_250/public/vc_spotlightsacramento_sacramento_st_rf_187559989_1280x640.jpg?itok=hPTbZi1Q 250w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_500/public/vc_spotlightsacramento_sacramento_st_rf_187559989_1280x640.jpg?itok=pSgR4w4W 500w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_680/public/vc_spotlightsacramento_sacramento_st_rf_187559989_1280x640.jpg?itok=yfuvgdp4 680w,
@@ -1235,7 +1235,7 @@ function Section2({text, color, pt}) {
                       />
                         <img
                           sizes="(max-width: 1000px) 100vw, 1000px"
-                          srcset="https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_150/public/vc_spotlightsacramento_sacramento_st_rf_187559989_1280x640.jpg?itok=ewPvFZws 150w,
+                          srcSet="https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_150/public/vc_spotlightsacramento_sacramento_st_rf_187559989_1280x640.jpg?itok=ewPvFZws 150w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_250/public/vc_spotlightsacramento_sacramento_st_rf_187559989_1280x640.jpg?itok=hPTbZi1Q 250w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_500/public/vc_spotlightsacramento_sacramento_st_rf_187559989_1280x640.jpg?itok=pSgR4w4W 500w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_680/public/vc_spotlightsacramento_sacramento_st_rf_187559989_1280x640.jpg?itok=yfuvgdp4 680w,
@@ -1262,7 +1262,7 @@ function Section2({text, color, pt}) {
                     <noscript>
                       <picture>
                         <source
-                          srcset="https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_150/public/vc_spotlightsacramento_sacramento_st_rf_187559989_1280x640.jpg?itok=ewPvFZws 150w,
+                          srcSet="https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_150/public/vc_spotlightsacramento_sacramento_st_rf_187559989_1280x640.jpg?itok=ewPvFZws 150w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_250/public/vc_spotlightsacramento_sacramento_st_rf_187559989_1280x640.jpg?itok=hPTbZi1Q 250w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_500/public/vc_spotlightsacramento_sacramento_st_rf_187559989_1280x640.jpg?itok=pSgR4w4W 500w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_680/public/vc_spotlightsacramento_sacramento_st_rf_187559989_1280x640.jpg?itok=yfuvgdp4 680w,
@@ -1274,7 +1274,7 @@ function Section2({text, color, pt}) {
                         <img
                           loading="lazy"
                           sizes="(max-width: 1000px) 100vw, 1000px"
-                          srcset="https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_150/public/vc_spotlightsacramento_sacramento_st_rf_187559989_1280x640.jpg?itok=ewPvFZws 150w,
+                          srcSet="https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_150/public/vc_spotlightsacramento_sacramento_st_rf_187559989_1280x640.jpg?itok=ewPvFZws 150w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_250/public/vc_spotlightsacramento_sacramento_st_rf_187559989_1280x640.jpg?itok=hPTbZi1Q 250w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_500/public/vc_spotlightsacramento_sacramento_st_rf_187559989_1280x640.jpg?itok=pSgR4w4W 500w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_680/public/vc_spotlightsacramento_sacramento_st_rf_187559989_1280x640.jpg?itok=yfuvgdp4 680w,
@@ -1351,7 +1351,7 @@ function Section2({text, color, pt}) {
                     />
                     <picture>
                       <source
-                        srcset="https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_150/public/vc_crtr_borntobewild_module_mendocino_st_rf_623667652_1280x640.jpg?itok=EI2wkeS8 150w,
+                        srcSet="https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_150/public/vc_crtr_borntobewild_module_mendocino_st_rf_623667652_1280x640.jpg?itok=EI2wkeS8 150w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_250/public/vc_crtr_borntobewild_module_mendocino_st_rf_623667652_1280x640.jpg?itok=h6tPkAs4 250w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_500/public/vc_crtr_borntobewild_module_mendocino_st_rf_623667652_1280x640.jpg?itok=UAsohZ99 500w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_680/public/vc_crtr_borntobewild_module_mendocino_st_rf_623667652_1280x640.jpg?itok=cNexTquO 680w,
@@ -1362,7 +1362,7 @@ function Section2({text, color, pt}) {
                       />
                         <img
                           sizes="(max-width: 1000px) 100vw, 1000px"
-                          srcset="https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_150/public/vc_crtr_borntobewild_module_mendocino_st_rf_623667652_1280x640.jpg?itok=EI2wkeS8 150w,
+                          srcSet="https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_150/public/vc_crtr_borntobewild_module_mendocino_st_rf_623667652_1280x640.jpg?itok=EI2wkeS8 150w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_250/public/vc_crtr_borntobewild_module_mendocino_st_rf_623667652_1280x640.jpg?itok=h6tPkAs4 250w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_500/public/vc_crtr_borntobewild_module_mendocino_st_rf_623667652_1280x640.jpg?itok=UAsohZ99 500w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_680/public/vc_crtr_borntobewild_module_mendocino_st_rf_623667652_1280x640.jpg?itok=cNexTquO 680w,
@@ -1389,7 +1389,7 @@ function Section2({text, color, pt}) {
                     <noscript>
                       <picture>
                         <source
-                          srcset="https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_150/public/vc_crtr_borntobewild_module_mendocino_st_rf_623667652_1280x640.jpg?itok=EI2wkeS8 150w,
+                          srcSet="https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_150/public/vc_crtr_borntobewild_module_mendocino_st_rf_623667652_1280x640.jpg?itok=EI2wkeS8 150w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_250/public/vc_crtr_borntobewild_module_mendocino_st_rf_623667652_1280x640.jpg?itok=h6tPkAs4 250w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_500/public/vc_crtr_borntobewild_module_mendocino_st_rf_623667652_1280x640.jpg?itok=UAsohZ99 500w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_680/public/vc_crtr_borntobewild_module_mendocino_st_rf_623667652_1280x640.jpg?itok=cNexTquO 680w,
@@ -1401,7 +1401,7 @@ function Section2({text, color, pt}) {
                         <img
                           loading="lazy"
                           sizes="(max-width: 1000px) 100vw, 1000px"
-                          srcset="https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_150/public/vc_crtr_borntobewild_module_mendocino_st_rf_623667652_1280x640.jpg?itok=EI2wkeS8 150w,
+                          srcSet="https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_150/public/vc_crtr_borntobewild_module_mendocino_st_rf_623667652_1280x640.jpg?itok=EI2wkeS8 150w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_250/public/vc_crtr_borntobewild_module_mendocino_st_rf_623667652_1280x640.jpg?itok=h6tPkAs4 250w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_500/public/vc_crtr_borntobewild_module_mendocino_st_rf_623667652_1280x640.jpg?itok=UAsohZ99 500w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_680/public/vc_crtr_borntobewild_module_mendocino_st_rf_623667652_1280x640.jpg?itok=cNexTquO 680w,
@@ -1478,7 +1478,7 @@ function Section2({text, color, pt}) {
                     />
                     <picture>
                       <source
-                        srcset="https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_150/public/SantaMonica_Beach_JoakimLloydRaboff_1280x642_1.jpg?itok=zsO9Ik__ 150w,
+                        srcSet="https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_150/public/SantaMonica_Beach_JoakimLloydRaboff_1280x642_1.jpg?itok=zsO9Ik__ 150w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_250/public/SantaMonica_Beach_JoakimLloydRaboff_1280x642_1.jpg?itok=SsDfzuFO 250w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_500/public/SantaMonica_Beach_JoakimLloydRaboff_1280x642_1.jpg?itok=v9rLy2s_ 500w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_680/public/SantaMonica_Beach_JoakimLloydRaboff_1280x642_1.jpg?itok=0eSDebDd 680w,
@@ -1489,7 +1489,7 @@ function Section2({text, color, pt}) {
                       />
                         <img
                           sizes="(max-width: 1000px) 100vw, 1000px"
-                          srcset="https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_150/public/SantaMonica_Beach_JoakimLloydRaboff_1280x642_1.jpg?itok=zsO9Ik__ 150w,
+                          srcSet="https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_150/public/SantaMonica_Beach_JoakimLloydRaboff_1280x642_1.jpg?itok=zsO9Ik__ 150w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_250/public/SantaMonica_Beach_JoakimLloydRaboff_1280x642_1.jpg?itok=SsDfzuFO 250w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_500/public/SantaMonica_Beach_JoakimLloydRaboff_1280x642_1.jpg?itok=v9rLy2s_ 500w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_680/public/SantaMonica_Beach_JoakimLloydRaboff_1280x642_1.jpg?itok=0eSDebDd 680w,
@@ -1516,7 +1516,7 @@ function Section2({text, color, pt}) {
                     <noscript>
                       <picture>
                         <source
-                          srcset="https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_150/public/SantaMonica_Beach_JoakimLloydRaboff_1280x642_1.jpg?itok=zsO9Ik__ 150w,
+                          srcSet="https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_150/public/SantaMonica_Beach_JoakimLloydRaboff_1280x642_1.jpg?itok=zsO9Ik__ 150w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_250/public/SantaMonica_Beach_JoakimLloydRaboff_1280x642_1.jpg?itok=SsDfzuFO 250w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_500/public/SantaMonica_Beach_JoakimLloydRaboff_1280x642_1.jpg?itok=v9rLy2s_ 500w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_680/public/SantaMonica_Beach_JoakimLloydRaboff_1280x642_1.jpg?itok=0eSDebDd 680w,
@@ -1528,7 +1528,7 @@ function Section2({text, color, pt}) {
                         <img
                           loading="lazy"
                           sizes="(max-width: 1000px) 100vw, 1000px"
-                          srcset="https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_150/public/SantaMonica_Beach_JoakimLloydRaboff_1280x642_1.jpg?itok=zsO9Ik__ 150w,
+                          srcSet="https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_150/public/SantaMonica_Beach_JoakimLloydRaboff_1280x642_1.jpg?itok=zsO9Ik__ 150w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_250/public/SantaMonica_Beach_JoakimLloydRaboff_1280x642_1.jpg?itok=SsDfzuFO 250w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_500/public/SantaMonica_Beach_JoakimLloydRaboff_1280x642_1.jpg?itok=v9rLy2s_ 500w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_680/public/SantaMonica_Beach_JoakimLloydRaboff_1280x642_1.jpg?itok=0eSDebDd 680w,
@@ -1605,7 +1605,7 @@ function Section2({text, color, pt}) {
                     />
                     <picture>
                       <source
-                        srcset="https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_150/public/VC_NapaSpotlight_Module4_DowntownNapa_Stock_RM_BP8CEE_1280x640.jpg?itok=Raf7xqnQ 150w,
+                        srcSet="https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_150/public/VC_NapaSpotlight_Module4_DowntownNapa_Stock_RM_BP8CEE_1280x640.jpg?itok=Raf7xqnQ 150w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_250/public/VC_NapaSpotlight_Module4_DowntownNapa_Stock_RM_BP8CEE_1280x640.jpg?itok=-hEnAQeG 250w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_500/public/VC_NapaSpotlight_Module4_DowntownNapa_Stock_RM_BP8CEE_1280x640.jpg?itok=RzUyETlu 500w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_680/public/VC_NapaSpotlight_Module4_DowntownNapa_Stock_RM_BP8CEE_1280x640.jpg?itok=xWbzXKPQ 680w,
@@ -1616,7 +1616,7 @@ function Section2({text, color, pt}) {
                       />
                         <img
                           sizes="(max-width: 1000px) 100vw, 1000px"
-                          srcset="https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_150/public/VC_NapaSpotlight_Module4_DowntownNapa_Stock_RM_BP8CEE_1280x640.jpg?itok=Raf7xqnQ 150w,
+                          srcSet="https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_150/public/VC_NapaSpotlight_Module4_DowntownNapa_Stock_RM_BP8CEE_1280x640.jpg?itok=Raf7xqnQ 150w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_250/public/VC_NapaSpotlight_Module4_DowntownNapa_Stock_RM_BP8CEE_1280x640.jpg?itok=-hEnAQeG 250w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_500/public/VC_NapaSpotlight_Module4_DowntownNapa_Stock_RM_BP8CEE_1280x640.jpg?itok=RzUyETlu 500w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_680/public/VC_NapaSpotlight_Module4_DowntownNapa_Stock_RM_BP8CEE_1280x640.jpg?itok=xWbzXKPQ 680w,
@@ -1643,7 +1643,7 @@ function Section2({text, color, pt}) {
                     <noscript>
                       <picture>
                         <source
-                          srcset="https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_150/public/VC_NapaSpotlight_Module4_DowntownNapa_Stock_RM_BP8CEE_1280x640.jpg?itok=Raf7xqnQ 150w,
+                          srcSet="https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_150/public/VC_NapaSpotlight_Module4_DowntownNapa_Stock_RM_BP8CEE_1280x640.jpg?itok=Raf7xqnQ 150w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_250/public/VC_NapaSpotlight_Module4_DowntownNapa_Stock_RM_BP8CEE_1280x640.jpg?itok=-hEnAQeG 250w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_500/public/VC_NapaSpotlight_Module4_DowntownNapa_Stock_RM_BP8CEE_1280x640.jpg?itok=RzUyETlu 500w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_680/public/VC_NapaSpotlight_Module4_DowntownNapa_Stock_RM_BP8CEE_1280x640.jpg?itok=xWbzXKPQ 680w,
@@ -1655,7 +1655,7 @@ function Section2({text, color, pt}) {
                         <img
                           loading="lazy"
                           sizes="(max-width: 1000px) 100vw, 1000px"
-                          srcset="https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_150/public/VC_NapaSpotlight_Module4_DowntownNapa_Stock_RM_BP8CEE_1280x640.jpg?itok=Raf7xqnQ 150w,
+                          srcSet="https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_150/public/VC_NapaSpotlight_Module4_DowntownNapa_Stock_RM_BP8CEE_1280x640.jpg?itok=Raf7xqnQ 150w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_250/public/VC_NapaSpotlight_Module4_DowntownNapa_Stock_RM_BP8CEE_1280x640.jpg?itok=-hEnAQeG 250w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_500/public/VC_NapaSpotlight_Module4_DowntownNapa_Stock_RM_BP8CEE_1280x640.jpg?itok=RzUyETlu 500w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_680/public/VC_NapaSpotlight_Module4_DowntownNapa_Stock_RM_BP8CEE_1280x640.jpg?itok=xWbzXKPQ 680w,
@@ -1732,7 +1732,7 @@ function Section2({text, color, pt}) {
                     />
                     <picture>
                       <source
-                        srcset="https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_150/public/VCW_D_SantaCruz_Hero_Thomas_Hawk_5513212075_20c9c0eeee_o_1280x642_0.jpg?itok=GNHpDPkG 150w,
+                        srcSet="https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_150/public/VCW_D_SantaCruz_Hero_Thomas_Hawk_5513212075_20c9c0eeee_o_1280x642_0.jpg?itok=GNHpDPkG 150w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_250/public/VCW_D_SantaCruz_Hero_Thomas_Hawk_5513212075_20c9c0eeee_o_1280x642_0.jpg?itok=n9GTk9kE 250w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_500/public/VCW_D_SantaCruz_Hero_Thomas_Hawk_5513212075_20c9c0eeee_o_1280x642_0.jpg?itok=U6sgFA3Q 500w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_680/public/VCW_D_SantaCruz_Hero_Thomas_Hawk_5513212075_20c9c0eeee_o_1280x642_0.jpg?itok=cqgtuBJk 680w,
@@ -1743,7 +1743,7 @@ function Section2({text, color, pt}) {
                       />
                         <img
                           sizes="(max-width: 1000px) 100vw, 1000px"
-                          srcset="https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_150/public/VCW_D_SantaCruz_Hero_Thomas_Hawk_5513212075_20c9c0eeee_o_1280x642_0.jpg?itok=GNHpDPkG 150w,
+                          srcSet="https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_150/public/VCW_D_SantaCruz_Hero_Thomas_Hawk_5513212075_20c9c0eeee_o_1280x642_0.jpg?itok=GNHpDPkG 150w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_250/public/VCW_D_SantaCruz_Hero_Thomas_Hawk_5513212075_20c9c0eeee_o_1280x642_0.jpg?itok=n9GTk9kE 250w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_500/public/VCW_D_SantaCruz_Hero_Thomas_Hawk_5513212075_20c9c0eeee_o_1280x642_0.jpg?itok=U6sgFA3Q 500w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_680/public/VCW_D_SantaCruz_Hero_Thomas_Hawk_5513212075_20c9c0eeee_o_1280x642_0.jpg?itok=cqgtuBJk 680w,
@@ -1770,7 +1770,7 @@ function Section2({text, color, pt}) {
                     <noscript>
                       <picture>
                         <source
-                          srcset="https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_150/public/VCW_D_SantaCruz_Hero_Thomas_Hawk_5513212075_20c9c0eeee_o_1280x642_0.jpg?itok=GNHpDPkG 150w,
+                          srcSet="https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_150/public/VCW_D_SantaCruz_Hero_Thomas_Hawk_5513212075_20c9c0eeee_o_1280x642_0.jpg?itok=GNHpDPkG 150w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_250/public/VCW_D_SantaCruz_Hero_Thomas_Hawk_5513212075_20c9c0eeee_o_1280x642_0.jpg?itok=n9GTk9kE 250w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_500/public/VCW_D_SantaCruz_Hero_Thomas_Hawk_5513212075_20c9c0eeee_o_1280x642_0.jpg?itok=U6sgFA3Q 500w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_680/public/VCW_D_SantaCruz_Hero_Thomas_Hawk_5513212075_20c9c0eeee_o_1280x642_0.jpg?itok=cqgtuBJk 680w,
@@ -1782,7 +1782,7 @@ function Section2({text, color, pt}) {
                         <img
                           loading="lazy"
                           sizes="(max-width: 1000px) 100vw, 1000px"
-                          srcset="https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_150/public/VCW_D_SantaCruz_Hero_Thomas_Hawk_5513212075_20c9c0eeee_o_1280x642_0.jpg?itok=GNHpDPkG 150w,
+                          srcSet="https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_150/public/VCW_D_SantaCruz_Hero_Thomas_Hawk_5513212075_20c9c0eeee_o_1280x642_0.jpg?itok=GNHpDPkG 150w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_250/public/VCW_D_SantaCruz_Hero_Thomas_Hawk_5513212075_20c9c0eeee_o_1280x642_0.jpg?itok=n9GTk9kE 250w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_500/public/VCW_D_SantaCruz_Hero_Thomas_Hawk_5513212075_20c9c0eeee_o_1280x642_0.jpg?itok=U6sgFA3Q 500w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_680/public/VCW_D_SantaCruz_Hero_Thomas_Hawk_5513212075_20c9c0eeee_o_1280x642_0.jpg?itok=cqgtuBJk 680w,
@@ -1859,7 +1859,7 @@ function Section2({text, color, pt}) {
                     />
                     <picture>
                       <source
-                        srcset="https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_150/public/vc_spotlighttemeculavalley_hero_st_rf_bj1beh_1280x640.jpg?itok=yDUowuha 150w,
+                        srcSet="https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_150/public/vc_spotlighttemeculavalley_hero_st_rf_bj1beh_1280x640.jpg?itok=yDUowuha 150w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_250/public/vc_spotlighttemeculavalley_hero_st_rf_bj1beh_1280x640.jpg?itok=q32CQzTh 250w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_500/public/vc_spotlighttemeculavalley_hero_st_rf_bj1beh_1280x640.jpg?itok=ql3bmyiN 500w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_680/public/vc_spotlighttemeculavalley_hero_st_rf_bj1beh_1280x640.jpg?itok=E6w0iwAN 680w,
@@ -1870,7 +1870,7 @@ function Section2({text, color, pt}) {
                       />
                         <img
                           sizes="(max-width: 1000px) 100vw, 1000px"
-                          srcset="https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_150/public/vc_spotlighttemeculavalley_hero_st_rf_bj1beh_1280x640.jpg?itok=yDUowuha 150w,
+                          srcSet="https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_150/public/vc_spotlighttemeculavalley_hero_st_rf_bj1beh_1280x640.jpg?itok=yDUowuha 150w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_250/public/vc_spotlighttemeculavalley_hero_st_rf_bj1beh_1280x640.jpg?itok=q32CQzTh 250w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_500/public/vc_spotlighttemeculavalley_hero_st_rf_bj1beh_1280x640.jpg?itok=ql3bmyiN 500w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_680/public/vc_spotlighttemeculavalley_hero_st_rf_bj1beh_1280x640.jpg?itok=E6w0iwAN 680w,
@@ -1897,7 +1897,7 @@ function Section2({text, color, pt}) {
                     <noscript>
                       <picture>
                         <source
-                          srcset="https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_150/public/vc_spotlighttemeculavalley_hero_st_rf_bj1beh_1280x640.jpg?itok=yDUowuha 150w,
+                          srcSet="https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_150/public/vc_spotlighttemeculavalley_hero_st_rf_bj1beh_1280x640.jpg?itok=yDUowuha 150w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_250/public/vc_spotlighttemeculavalley_hero_st_rf_bj1beh_1280x640.jpg?itok=q32CQzTh 250w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_500/public/vc_spotlighttemeculavalley_hero_st_rf_bj1beh_1280x640.jpg?itok=ql3bmyiN 500w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_680/public/vc_spotlighttemeculavalley_hero_st_rf_bj1beh_1280x640.jpg?itok=E6w0iwAN 680w,
@@ -1909,7 +1909,7 @@ function Section2({text, color, pt}) {
                         <img
                           loading="lazy"
                           sizes="(max-width: 1000px) 100vw, 1000px"
-                          srcset="https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_150/public/vc_spotlighttemeculavalley_hero_st_rf_bj1beh_1280x640.jpg?itok=yDUowuha 150w,
+                          srcSet="https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_150/public/vc_spotlighttemeculavalley_hero_st_rf_bj1beh_1280x640.jpg?itok=yDUowuha 150w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_250/public/vc_spotlighttemeculavalley_hero_st_rf_bj1beh_1280x640.jpg?itok=q32CQzTh 250w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_500/public/vc_spotlighttemeculavalley_hero_st_rf_bj1beh_1280x640.jpg?itok=ql3bmyiN 500w,
   https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_680/public/vc_spotlighttemeculavalley_hero_st_rf_bj1beh_1280x640.jpg?itok=E6w0iwAN 680w,

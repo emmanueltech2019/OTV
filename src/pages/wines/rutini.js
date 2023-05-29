@@ -13,6 +13,7 @@ import StarIcon from '@mui/icons-material/Star';
 import "swiper/css";
 import "swiper/css/pagination";
 
+
 // import required modules
 import { Pagination } from "swiper";
 import Navbar from '@/components/Navbar'

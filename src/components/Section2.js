@@ -81,25 +81,25 @@ function Section2({text, color, pt}) {
                     />
                     <picture>
                       <source
-                        srcSet="https://res.cloudinary.com/wise-solution-inc/image/upload/v1685105378/WhatsApp_Image_2023-05-24_at_16.07.52_ydvcip.jpg?itok=wQFEyYj6 150w,
-  https://res.cloudinary.com/wise-solution-inc/image/upload/v1685105378/WhatsApp_Image_2023-05-24_at_16.07.52_ydvcip.jpg?itok=_tEH2n4V 250w,
-  https://res.cloudinary.com/wise-solution-inc/image/upload/v1685105378/WhatsApp_Image_2023-05-24_at_16.07.52_ydvcip.jpg?itok=4O6WBzMx 500w,
-  https://res.cloudinary.com/wise-solution-inc/image/upload/v1685105378/WhatsApp_Image_2023-05-24_at_16.07.52_ydvcip.jpg?itok=9rqQ4x2T 680w,
-  https://res.cloudinary.com/wise-solution-inc/image/upload/v1685105378/WhatsApp_Image_2023-05-24_at_16.07.52_ydvcip.jpg?itok=dtEaxSHy 1000w,
-  https://res.cloudinary.com/wise-solution-inc/image/upload/v1685105378/WhatsApp_Image_2023-05-24_at_16.07.52_ydvcip.jpg?itok=dw6by-mk 1200w,
-  https://res.cloudinary.com/wise-solution-inc/image/upload/v1685105378/WhatsApp_Image_2023-05-24_at_16.07.52_ydvcip.jpg 1280w"
+                        srcSet="https://res.cloudinary.com/wise-solution-inc/image/upload/v1685363365/rutini_dna5uu.png?itok=wQFEyYj6 150w,
+                        https://res.cloudinary.com/wise-solution-inc/image/upload/v1685363365/rutini_dna5uu.png?itok=_tEH2n4V 250w,
+                        https://res.cloudinary.com/wise-solution-inc/image/upload/v1685363365/rutini_dna5uu.png?itok=4O6WBzMx 500w,
+  https://res.cloudinary.com/wise-solution-inc/image/upload/v1685363365/rutini_dna5uu.png?itok=9rqQ4x2T 680w,
+  https://res.cloudinary.com/wise-solution-inc/image/upload/v1685363365/rutini_dna5uu.png?itok=dtEaxSHy 1000w,
+  https://res.cloudinary.com/wise-solution-inc/image/upload/v1685363365/rutini_dna5uu.png?itok=dw6by-mk 1200w,
+  https://res.cloudinary.com/wise-solution-inc/image/upload/v1685363365/rutini_dna5uu.png 1280w"
                         sizes="(max-width: 1000px) 100vw, 1000px"
                       />
                         <img
                           sizes="(max-width: 1000px) 100vw, 1000px"
-                          srcSet="https://res.cloudinary.com/wise-solution-inc/image/upload/v1685105378/WhatsApp_Image_2023-05-24_at_16.07.52_ydvcip.jpg?itok=wQFEyYj6 150w,
-  https://res.cloudinary.com/wise-solution-inc/image/upload/v1685105378/WhatsApp_Image_2023-05-24_at_16.07.52_ydvcip.jpg?itok=_tEH2n4V 250w,
-  https://res.cloudinary.com/wise-solution-inc/image/upload/v1685105378/WhatsApp_Image_2023-05-24_at_16.07.52_ydvcip.jpg?itok=4O6WBzMx 500w,
-  https://res.cloudinary.com/wise-solution-inc/image/upload/v1685105378/WhatsApp_Image_2023-05-24_at_16.07.52_ydvcip.jpg?itok=9rqQ4x2T 680w,
-  https://res.cloudinary.com/wise-solution-inc/image/upload/v1685105378/WhatsApp_Image_2023-05-24_at_16.07.52_ydvcip.jpg?itok=dtEaxSHy 1000w,
-  https://res.cloudinary.com/wise-solution-inc/image/upload/v1685105378/WhatsApp_Image_2023-05-24_at_16.07.52_ydvcip.jpg?itok=dw6by-mk 1200w,
-  https://res.cloudinary.com/wise-solution-inc/image/upload/v1685105378/WhatsApp_Image_2023-05-24_at_16.07.52_ydvcip.jpg 1280w"
-                          src="https://res.cloudinary.com/wise-solution-inc/image/upload/v1685105378/WhatsApp_Image_2023-05-24_at_16.07.52_ydvcip.jpg?itok=dtEaxSHy"
+                          srcSet="https://res.cloudinary.com/wise-solution-inc/image/upload/v1685363365/rutini_dna5uu.png?itok=wQFEyYj6 150w,
+  https://res.cloudinary.com/wise-solution-inc/image/upload/v1685363365/rutini_dna5uu.png?itok=_tEH2n4V 250w,
+  https://res.cloudinary.com/wise-solution-inc/image/upload/v1685363365/rutini_dna5uu.png?itok=4O6WBzMx 500w,
+  https://res.cloudinary.com/wise-solution-inc/image/upload/v1685363365/rutini_dna5uu.png?itok=9rqQ4x2T 680w,
+  https://res.cloudinary.com/wise-solution-inc/image/upload/v1685363365/rutini_dna5uu.png?itok=dtEaxSHy 1000w,
+  https://res.cloudinary.com/wise-solution-inc/image/upload/v1685363365/rutini_dna5uu.png?itok=dw6by-mk 1200w,
+  https://res.cloudinary.com/wise-solution-inc/image/upload/v1685363365/rutini_dna5uu.png 1280w"
+                          src="https://res.cloudinary.com/wise-solution-inc/image/upload/v1685363365/rutini_dna5uu.png?itok=dtEaxSHy"
                           alt="San Francisco"
                           loading="lazy"
                           style={{
@@ -119,26 +119,26 @@ function Section2({text, color, pt}) {
                     <noscript>
                       <picture>
                         <source
-                          srcSet="https://res.cloudinary.com/wise-solution-inc/image/upload/v1685105378/WhatsApp_Image_2023-05-24_at_16.07.52_ydvcip.jpg?itok=wQFEyYj6 150w,
-  https://res.cloudinary.com/wise-solution-inc/image/upload/v1685105378/WhatsApp_Image_2023-05-24_at_16.07.52_ydvcip.jpg?itok=_tEH2n4V 250w,
-  https://res.cloudinary.com/wise-solution-inc/image/upload/v1685105378/WhatsApp_Image_2023-05-24_at_16.07.52_ydvcip.jpg?itok=4O6WBzMx 500w,
-  https://res.cloudinary.com/wise-solution-inc/image/upload/v1685105378/WhatsApp_Image_2023-05-24_at_16.07.52_ydvcip.jpg?itok=9rqQ4x2T 680w,
-  https://res.cloudinary.com/wise-solution-inc/image/upload/v1685105378/WhatsApp_Image_2023-05-24_at_16.07.52_ydvcip.jpg?itok=dtEaxSHy 1000w,
-  https://res.cloudinary.com/wise-solution-inc/image/upload/v1685105378/WhatsApp_Image_2023-05-24_at_16.07.52_ydvcip.jpg?itok=dw6by-mk 1200w,
-  https://res.cloudinary.com/wise-solution-inc/image/upload/v1685105378/WhatsApp_Image_2023-05-24_at_16.07.52_ydvcip.jpg 1280w"
+                          srcSet="https://res.cloudinary.com/wise-solution-inc/image/upload/v1685363365/rutini_dna5uu.png?itok=wQFEyYj6 150w,
+  https://res.cloudinary.com/wise-solution-inc/image/upload/v1685363365/rutini_dna5uu.png?itok=_tEH2n4V 250w,
+  https://res.cloudinary.com/wise-solution-inc/image/upload/v1685363365/rutini_dna5uu.png?itok=4O6WBzMx 500w,
+  https://res.cloudinary.com/wise-solution-inc/image/upload/v1685363365/rutini_dna5uu.png?itok=9rqQ4x2T 680w,
+  https://res.cloudinary.com/wise-solution-inc/image/upload/v1685363365/rutini_dna5uu.png?itok=dtEaxSHy 1000w,
+  https://res.cloudinary.com/wise-solution-inc/image/upload/v1685363365/rutini_dna5uu.png?itok=dw6by-mk 1200w,
+  https://res.cloudinary.com/wise-solution-inc/image/upload/v1685363365/rutini_dna5uu.png 1280w"
                           sizes="(max-width: 1000px) 100vw, 1000px"
                         />
                         <img
                           loading="lazy"
                           sizes="(max-width: 1000px) 100vw, 1000px"
-                          srcSet="https://res.cloudinary.com/wise-solution-inc/image/upload/v1685105378/WhatsApp_Image_2023-05-24_at_16.07.52_ydvcip.jpg?itok=wQFEyYj6 150w,
-  https://res.cloudinary.com/wise-solution-inc/image/upload/v1685105378/WhatsApp_Image_2023-05-24_at_16.07.52_ydvcip.jpg?itok=_tEH2n4V 250w,
-  https://res.cloudinary.com/wise-solution-inc/image/upload/v1685105378/WhatsApp_Image_2023-05-24_at_16.07.52_ydvcip.jpg?itok=4O6WBzMx 500w,
-  https://res.cloudinary.com/wise-solution-inc/image/upload/v1685105378/WhatsApp_Image_2023-05-24_at_16.07.52_ydvcip.jpg?itok=9rqQ4x2T 680w,
-  https://res.cloudinary.com/wise-solution-inc/image/upload/v1685105378/WhatsApp_Image_2023-05-24_at_16.07.52_ydvcip.jpg?itok=dtEaxSHy 1000w,
-  https://res.cloudinary.com/wise-solution-inc/image/upload/v1685105378/WhatsApp_Image_2023-05-24_at_16.07.52_ydvcip.jpg?itok=dw6by-mk 1200w,
-  https://res.cloudinary.com/wise-solution-inc/image/upload/v1685105378/WhatsApp_Image_2023-05-24_at_16.07.52_ydvcip.jpg 1280w"
-                          src="https://res.cloudinary.com/wise-solution-inc/image/upload/v1685105378/WhatsApp_Image_2023-05-24_at_16.07.52_ydvcip.jpg?itok=dtEaxSHy"
+                          srcSet="https://res.cloudinary.com/wise-solution-inc/image/upload/v1685363365/rutini_dna5uu.png?itok=wQFEyYj6 150w,
+  https://res.cloudinary.com/wise-solution-inc/image/upload/v1685363365/rutini_dna5uu.png?itok=_tEH2n4V 250w,
+  https://res.cloudinary.com/wise-solution-inc/image/upload/v1685363365/rutini_dna5uu.png?itok=4O6WBzMx 500w,
+  https://res.cloudinary.com/wise-solution-inc/image/upload/v1685363365/rutini_dna5uu.png?itok=9rqQ4x2T 680w,
+  https://res.cloudinary.com/wise-solution-inc/image/upload/v1685363365/rutini_dna5uu.png?itok=dtEaxSHy 1000w,
+  https://res.cloudinary.com/wise-solution-inc/image/upload/v1685363365/rutini_dna5uu.png?itok=dw6by-mk 1200w,
+  https://res.cloudinary.com/wise-solution-inc/image/upload/v1685363365/rutini_dna5uu.png 1280w"
+                          src="https://res.cloudinary.com/wise-solution-inc/image/upload/v1685363365/rutini_dna5uu.png?itok=dtEaxSHy"
                           alt="San Francisco"
                           style={{
                             position: "absolute",
@@ -159,7 +159,7 @@ function Section2({text, color, pt}) {
                   alt="San Francisco"
                   title="San Francisco"
                   className="m-highlightCard__link"
-                  href="/wine"
+                  href="/wines/rutini"
                 ></a>
                 <div className="m-highlightCard__link-wrapper">
                   <div className="m-highlightCard__link__content">
@@ -169,7 +169,7 @@ function Section2({text, color, pt}) {
                         Red wine
                       </span>
                       <span className="m-highlightCard__link__content--heading">
-                        Purple Angel
+                      RUTINI
                       </span>
                     </div>
                     <div className="m-highlightCard__link__content--bottom">
@@ -208,24 +208,24 @@ function Section2({text, color, pt}) {
                     />
                     <picture>
                       <source
-                        srcSet="https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_150/public/2020-06/VC_PlacesToVisit_LosAngelesCounty_RF_1170794243.jpg?itok=nJIFRedv 150w,
-  https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_250/public/2020-06/VC_PlacesToVisit_LosAngelesCounty_RF_1170794243.jpg?itok=DvuMU_1R 250w,
-  https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_500/public/2020-06/VC_PlacesToVisit_LosAngelesCounty_RF_1170794243.jpg?itok=TU2VBFsN 500w,
-  https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_680/public/2020-06/VC_PlacesToVisit_LosAngelesCounty_RF_1170794243.jpg?itok=jfdALGyA 680w,
-  https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_1000/public/2020-06/VC_PlacesToVisit_LosAngelesCounty_RF_1170794243.jpg?itok=cS5a151B 1000w,
-  https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_1200/public/2020-06/VC_PlacesToVisit_LosAngelesCounty_RF_1170794243.jpg?itok=Ezr6R_Mt 1200w,
-  https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/2020-06/VC_PlacesToVisit_LosAngelesCounty_RF_1170794243.jpg 2280w"
+                        srcSet="https://res.cloudinary.com/wise-solution-inc/image/upload/v1685363366/sur-andino_y6lqlj.jpg?itok=nJIFRedv 150w,
+                        https://res.cloudinary.com/wise-solution-inc/image/upload/v1685363366/sur-andino_y6lqlj.jpg?itok=DvuMU_1R 250w,
+                        https://res.cloudinary.com/wise-solution-inc/image/upload/v1685363366/sur-andino_y6lqlj.jpg?itok=TU2VBFsN 500w,
+                        https://res.cloudinary.com/wise-solution-inc/image/upload/v1685363366/sur-andino_y6lqlj.jpg?itok=jfdALGyA 680w,
+                        https://res.cloudinary.com/wise-solution-inc/image/upload/v1685363366/sur-andino_y6lqlj.jpg?itok=cS5a151B 1000w,
+                        https://res.cloudinary.com/wise-solution-inc/image/upload/v1685363366/sur-andino_y6lqlj.jpg?itok=Ezr6R_Mt 1200w,
+                        https://res.cloudinary.com/wise-solution-inc/image/upload/v1685363366/sur-andino_y6lqlj.jpg 2280w"
                         sizes="(max-width: 1000px) 100vw, 1000px"
                       />
                         <img
                           sizes="(max-width: 1000px) 100vw, 1000px"
-                          srcSet="https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_150/public/2020-06/VC_PlacesToVisit_LosAngelesCounty_RF_1170794243.jpg?itok=nJIFRedv 150w,
-  https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_250/public/2020-06/VC_PlacesToVisit_LosAngelesCounty_RF_1170794243.jpg?itok=DvuMU_1R 250w,
-  https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_500/public/2020-06/VC_PlacesToVisit_LosAngelesCounty_RF_1170794243.jpg?itok=TU2VBFsN 500w,
-  https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_680/public/2020-06/VC_PlacesToVisit_LosAngelesCounty_RF_1170794243.jpg?itok=jfdALGyA 680w,
-  https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_1000/public/2020-06/VC_PlacesToVisit_LosAngelesCounty_RF_1170794243.jpg?itok=cS5a151B 1000w,
-  https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_1200/public/2020-06/VC_PlacesToVisit_LosAngelesCounty_RF_1170794243.jpg?itok=Ezr6R_Mt 1200w,
-  https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/2020-06/VC_PlacesToVisit_LosAngelesCounty_RF_1170794243.jpg 2280w"
+                          srcSet="https://res.cloudinary.com/wise-solution-inc/image/upload/v1685363366/sur-andino_y6lqlj.jpg?itok=nJIFRedv 150w,
+                          https://res.cloudinary.com/wise-solution-inc/image/upload/v1685363366/sur-andino_y6lqlj.jpg?itok=DvuMU_1R 250w,
+                          https://res.cloudinary.com/wise-solution-inc/image/upload/v1685363366/sur-andino_y6lqlj.jpg?itok=TU2VBFsN 500w,
+                          https://res.cloudinary.com/wise-solution-inc/image/upload/v1685363366/sur-andino_y6lqlj.jpg?itok=jfdALGyA 680w,
+                          https://res.cloudinary.com/wise-solution-inc/image/upload/v1685363366/sur-andino_y6lqlj.jpg?itok=cS5a151B 1000w,
+                          https://res.cloudinary.com/wise-solution-inc/image/upload/v1685363366/sur-andino_y6lqlj.jpg?itok=Ezr6R_Mt 1200w,
+                          https://res.cloudinary.com/wise-solution-inc/image/upload/v1685363366/sur-andino_y6lqlj.jpg 2280w"
                           src="https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_1000/public/2020-06/VC_PlacesToVisit_LosAngelesCounty_RF_1170794243.jpg?itok=cS5a151B"
                           alt="Los Angeles"
                           loading="lazy"
@@ -246,25 +246,25 @@ function Section2({text, color, pt}) {
                     <noscript>
                       <picture>
                         <source
-                          srcSet="https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_150/public/2020-06/VC_PlacesToVisit_LosAngelesCounty_RF_1170794243.jpg?itok=nJIFRedv 150w,
-  https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_250/public/2020-06/VC_PlacesToVisit_LosAngelesCounty_RF_1170794243.jpg?itok=DvuMU_1R 250w,
-  https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_500/public/2020-06/VC_PlacesToVisit_LosAngelesCounty_RF_1170794243.jpg?itok=TU2VBFsN 500w,
-  https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_680/public/2020-06/VC_PlacesToVisit_LosAngelesCounty_RF_1170794243.jpg?itok=jfdALGyA 680w,
-  https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_1000/public/2020-06/VC_PlacesToVisit_LosAngelesCounty_RF_1170794243.jpg?itok=cS5a151B 1000w,
-  https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_1200/public/2020-06/VC_PlacesToVisit_LosAngelesCounty_RF_1170794243.jpg?itok=Ezr6R_Mt 1200w,
-  https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/2020-06/VC_PlacesToVisit_LosAngelesCounty_RF_1170794243.jpg 2280w"
+                           srcSet="https://res.cloudinary.com/wise-solution-inc/image/upload/v1685363366/sur-andino_y6lqlj.jpg?itok=nJIFRedv 150w,
+                           https://res.cloudinary.com/wise-solution-inc/image/upload/v1685363366/sur-andino_y6lqlj.jpg?itok=DvuMU_1R 250w,
+                           https://res.cloudinary.com/wise-solution-inc/image/upload/v1685363366/sur-andino_y6lqlj.jpg?itok=TU2VBFsN 500w,
+                           https://res.cloudinary.com/wise-solution-inc/image/upload/v1685363366/sur-andino_y6lqlj.jpg?itok=jfdALGyA 680w,
+                           https://res.cloudinary.com/wise-solution-inc/image/upload/v1685363366/sur-andino_y6lqlj.jpg?itok=cS5a151B 1000w,
+                           https://res.cloudinary.com/wise-solution-inc/image/upload/v1685363366/sur-andino_y6lqlj.jpg?itok=Ezr6R_Mt 1200w,
+                           https://res.cloudinary.com/wise-solution-inc/image/upload/v1685363366/sur-andino_y6lqlj.jpg 2280w"
                           sizes="(max-width: 1000px) 100vw, 1000px"
                         />
                         <img
                           loading="lazy"
                           sizes="(max-width: 1000px) 100vw, 1000px"
-                          srcSet="https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_150/public/2020-06/VC_PlacesToVisit_LosAngelesCounty_RF_1170794243.jpg?itok=nJIFRedv 150w,
-  https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_250/public/2020-06/VC_PlacesToVisit_LosAngelesCounty_RF_1170794243.jpg?itok=DvuMU_1R 250w,
-  https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_500/public/2020-06/VC_PlacesToVisit_LosAngelesCounty_RF_1170794243.jpg?itok=TU2VBFsN 500w,
-  https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_680/public/2020-06/VC_PlacesToVisit_LosAngelesCounty_RF_1170794243.jpg?itok=jfdALGyA 680w,
-  https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_1000/public/2020-06/VC_PlacesToVisit_LosAngelesCounty_RF_1170794243.jpg?itok=cS5a151B 1000w,
-  https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_1200/public/2020-06/VC_PlacesToVisit_LosAngelesCounty_RF_1170794243.jpg?itok=Ezr6R_Mt 1200w,
-  https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/2020-06/VC_PlacesToVisit_LosAngelesCounty_RF_1170794243.jpg 2280w"
+                          srcSet="https://res.cloudinary.com/wise-solution-inc/image/upload/v1685363366/sur-andino_y6lqlj.jpg?itok=nJIFRedv 150w,
+                          https://res.cloudinary.com/wise-solution-inc/image/upload/v1685363366/sur-andino_y6lqlj.jpg?itok=DvuMU_1R 250w,
+                          https://res.cloudinary.com/wise-solution-inc/image/upload/v1685363366/sur-andino_y6lqlj.jpg?itok=TU2VBFsN 500w,
+                          https://res.cloudinary.com/wise-solution-inc/image/upload/v1685363366/sur-andino_y6lqlj.jpg?itok=jfdALGyA 680w,
+                          https://res.cloudinary.com/wise-solution-inc/image/upload/v1685363366/sur-andino_y6lqlj.jpg?itok=cS5a151B 1000w,
+                          https://res.cloudinary.com/wise-solution-inc/image/upload/v1685363366/sur-andino_y6lqlj.jpg?itok=Ezr6R_Mt 1200w,
+                          https://res.cloudinary.com/wise-solution-inc/image/upload/v1685363366/sur-andino_y6lqlj.jpg 2280w"
                           src="https://drupal8-prod.visitcalifornia.com/sites/drupal8-prod.visitcalifornia.com/files/styles/fluid_1000/public/2020-06/VC_PlacesToVisit_LosAngelesCounty_RF_1170794243.jpg?itok=cS5a151B"
                           alt="Los Angeles"
                           style={{
@@ -286,17 +286,17 @@ function Section2({text, color, pt}) {
                   alt="Los Angeles"
                   title="Los Angeles"
                   className="m-highlightCard__link"
-                  href="/places-to-visit/los-angeles/"
+                  href="/wines/sur-andino"
                 ></a>
                 <div className="m-highlightCard__link-wrapper">
                   <div className="m-highlightCard__link__content">
                     <div className="m-highlightCard__link__content--top "></div>
                     <div className="m-highlightCard__link__content--middle ">
                       <span className="m-highlightCard__link__content--headline">
-                        Los Angeles County
+                      ALTALUVIA CABERNET FRANC 2018
                       </span>
                       <span className="m-highlightCard__link__content--heading">
-                        Los Angeles
+                      SUR ANDINO
                       </span>
                     </div>
                     <div className="m-highlightCard__link__content--bottom">

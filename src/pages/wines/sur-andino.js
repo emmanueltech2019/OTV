@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import bg from "@/assets/pauillic-france.jpeg";
-import wineImg from "@/assets/wines/rutini.png";
+import wineImg from "@/assets/wines/sur-andino.jpg";
 import Image from "next/image";
 import Star from "@/assets/star.png";
 import InfoIcon from '@mui/icons-material/Info';
@@ -20,8 +20,7 @@ import Footer from '@/components/Footer'
 import Navbar2 from "@/components/Navbar2";
 
 
-
-function RutinaWine() {
+function SurAndinoWine() {
 const [isLightboxOpen, setIsLightboxOpen] = useState(false);
   const [lightboxImage, setLightboxImage] = useState('');
 
@@ -82,9 +81,9 @@ const [isLightboxOpen, setIsLightboxOpen] = useState(false);
             <div className=" mt-[70px] ">
                 {/* <div className="bg-gray-500 h-20 w-20 rounded-full mt-10 ml-10"></div> */}
               <span className="text-[#53528f] text-2xl">
-              Rutini
+              SUR ANDINO
               </span><br/>
-              <b>SINGLE VINEYARD CABERNET FRANC 2016</b>
+              <b>ALTALUVIA CABERNET FRANC 2018</b>
             </div>
             <div className="rounded-l-lg border-l border-gray-500 text-gray-500 text-3xl text-center py-3 w-[180px] px-5 border mt-[40px]">
               $1,208.11
@@ -260,4 +259,4 @@ const [isLightboxOpen, setIsLightboxOpen] = useState(false);
   );
 }
 
-export default RutinaWine;
+export default SurAndinoWine;

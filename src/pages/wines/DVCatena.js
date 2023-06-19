@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import bg from "@/assets/wines/rutini_bg.jpeg";
-import wineImg from "@/assets/wines/rutini.png";
+import bg from "@/assets/wines/mendoza-bg.jpeg";
+import wineImg from "@/assets/wines/dv-catena.png";
 import Image from "next/image";
 import Star from "@/assets/star.png";
 import InfoIcon from "@mui/icons-material/Info";
@@ -19,7 +19,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import Navbar2 from "@/components/Navbar2";
 
-function RutinaWine() {
+function ZuccardiWine() {
   const [isLightboxOpen, setIsLightboxOpen] = useState(false);
   const [lightboxImage, setLightboxImage] = useState("");
 
@@ -86,12 +86,13 @@ function RutinaWine() {
             <div className="w-[50vw] pr-10 flex flex-col justify-center md:justify-left items-center md:items-start">
               <div className=" mt-[70px] ">
                 {/* <div className="bg-gray-500 h-20 w-20 rounded-full mt-10 ml-10"></div> */}
-                <span className="text-[#53528f] text-2xl">Rutini</span>
+                <span className="text-[#53528f] text-2xl">
+                D.V. Catena</span>
                 <br />
-                <b>SINGLE VINEYARD CABERNET FRANC 2016</b>
+                <b>Malbec - Malbec 2016</b>
               </div>
               <div className="rounded-l-lg border-l border-gray-500 text-gray-500 text-3xl text-center py-3 w-[180px] px-5 border mt-[40px]">
-                $1,208.11
+              $20.61
               </div>
               {/* <span className="text-[#853924] text-2xl text-center">
               Best price from Pauillic winery
@@ -152,7 +153,7 @@ function RutinaWine() {
                 <p>Malbec</p>
               </div>
             </div>
-            <div>
+            {/* <div>
               <h4 className="py-5 text-2xl font-bold">Alcohol (ABV)</h4>
               <div className=" rounded-full py-3 px-10">
                 <p>13.5%</p>
@@ -163,9 +164,9 @@ function RutinaWine() {
               <div className="rounded-full py-3 px-10">
                 <p>Alejandro vigil</p>
               </div>
-            </div>
-          </div>
-          <div className="bg-white my-3 py-5 px-3 text-gray-700 ">
+            </div> */}
+          </div> 
+          {/* <div className="bg-white my-3 py-5 px-3 text-gray-700 ">
             <div className=" text-center flex flex-col  md:flex-row justify-center items-center">
               <div className="border-b border-gray-300">
                 <h4 className="py-2 text-2xl  pt-5">
@@ -200,7 +201,7 @@ function RutinaWine() {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
           <div className="flex md:flex-row flex-col   md:w-screen">
             <div className="bg-white my-3 py-5 px-3 text-gray-700  md:w-1/2  md:pl-[200px]">
               <h1 className="bold pb-2 font-semibold md:text-2xl">Food Pairing</h1>
@@ -229,19 +230,15 @@ function RutinaWine() {
           </div>
           <div className="bg-white my-3 py-5 px-3 text-gray-700 md:px-[200px]">
             <h1 className="bold pb-2 font-semibold md:text-2xl">
-              Bordeaux left Bank <br />
-              <span>Pauillic</span>
+              Argentinian <br />
+              <span>Malbec</span>
             </h1>
             <div className="flex flex-col justify-between border-t border-b py-3">
               <p>
-                A nice medium to fuller bidied Malbec. its is boasting dark
-                blackberry and plum fruit flavours coupled with notes of baking
-                spice, cocoa toast and vanilla.
+                Extremely popular, Argentinian Malbec is an inky, medium-bodied, dry red wine with strong impressions of dark fruits on the nose and palate. This wine tends to have mellower tannis than its French counterpart.
               </p>
               <p>
-                A nice medium to fuller bidied Malbec. its is boasting dark
-                blackberry and plum fruit flavours coupled with notes of baking
-                spice, cocoa toast and vanilla.
+                Heavily dependent on where they are grown for variations in flavor, Argentina Malbec has quickly become the worlds favorite due to the Characteristics that the high altituse climate and soils imart to the fruit.
               </p>
             </div>
             <Swiper
@@ -273,16 +270,14 @@ function RutinaWine() {
             <h1 className="bold pb-2 font-semibold md:text-2xl">Winemaker's notes</h1>
             <div className="flex justify-between">
               <p>
-                A nice medium to fuller bidied Malbec. its is boasting dark
-                blackberry and plum fruit flavours coupled with notes of baking
-                spice, cocoa toast and vanilla.
+                Domingo Vincente Catena Malbec 2005 is a blend of Malbec grapes sourced from two different vinyards. The "Angelica" Vineyard confers ripe plum flavours, silkiness and good volume on the palate. "La Piramide" Vinyards adds black berry fruits and black pepper spicy notes. The result is a complex wine of intense flavors that linger on a long, velvety finish.
               </p>
             </div>
           </div>
           <div className="bg-white my-3 py-5 px-3 text-gray-700 text-center  md:w-1/2 md:pr-[200px]">
             <h1 className="bold pb-2 md:text-2xl">Winery</h1>
             <div className=" text-2xl font-bold">
-              <p>El Enemigo</p>
+              <p>D.V. Catena</p>
             </div>
           </div>
           </div>
@@ -317,4 +312,4 @@ function RutinaWine() {
   );
 }
 
-export default RutinaWine;
+export default ZuccardiWine;

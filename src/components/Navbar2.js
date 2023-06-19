@@ -80,22 +80,22 @@ function Navbar2() {
             </div>
           </div>
           <div>
-            <a className="nav--links__main" href="/places-to-visit/">
+            <a className="nav--links__main text-[#53528f]" href="/places-to-visit/">
               Places to Visit
             </a>
           </div>
           <div>
-            <a className="nav--links__main" href="/things-to-do/">
+            <a className="nav--links__main text-[#53528f]" href="/things-to-do/">
               Things To Do
             </a>
           </div>
           <div>
-            <a className="nav--links__main" href="/now/">
+            <a className="nav--links__main text-[#53528f]" href="/now/">
               Blog
             </a>
           </div>
           <div>
-            <a className="nav--links__main" href="/road-trips/">
+            <a className="nav--links__main text-[#53528f]" href="/road-trips/">
               Road Trips
             </a>
           </div>
@@ -289,17 +289,17 @@ function Navbar2() {
               </svg> */}
             </a>
             <div className="header--main__nav--inner__link">
-              <a href="/places-to-visit/">Places to Visit</a>
+              <a href="/places-to-visit/" className="text-[#53528f]">Places to Visit</a>
             </div>
             <div className="header--main__nav--inner__link">
-              <a href="/things-to-do/">Things To Do</a>
+              <a href="/things-to-do/" className="text-[#53528f]">Things To Do</a>
             </div>
             <div className="header--main__nav--inner__link">
-              <a href="/road-trips/">Road Trips</a>
+              <a href="/road-trips/" className="text-[#53528f]">Road Trips</a>
             </div>
             <div className="header--main__nav--inner__link">
               <div className="header--main__nav--inner__link">
-                <button className="more-button">
+                <button className="more-button text-[#53528f]">
                   More
                   <MenuIcon />
                 </button>
@@ -310,7 +310,7 @@ function Navbar2() {
               className="search--navicon__wrapper"
               style={{ cursor: "pointer" }}
             >
-              <SearchIcon />
+              <SearchIcon style={{color:"#53528f"}}/>
             </div>
           </div>
         </div>
@@ -454,7 +454,7 @@ function Navbar2() {
             </svg> */}
           </div>
           <div id="logoWithSearch" className="mobileSearch__logoWithSearch">
-            <a aria-current="page" className="font-bold text-3xl" href="/">
+            <a aria-current="page" className="font-bold text-3xl text-[#53528f]" href="/">
                 OTV
             </a>
           </div>

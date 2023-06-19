@@ -81,25 +81,25 @@ function Section2({text, color, pt}) {
                     />
                     <picture>
                       <source
-                        srcSet="https://res.cloudinary.com/wise-solution-inc/image/upload/v1685363365/rutini_dna5uu.png?itok=wQFEyYj6 150w,
-                        https://res.cloudinary.com/wise-solution-inc/image/upload/v1685363365/rutini_dna5uu.png?itok=_tEH2n4V 250w,
-                        https://res.cloudinary.com/wise-solution-inc/image/upload/v1685363365/rutini_dna5uu.png?itok=4O6WBzMx 500w,
-  https://res.cloudinary.com/wise-solution-inc/image/upload/v1685363365/rutini_dna5uu.png?itok=9rqQ4x2T 680w,
-  https://res.cloudinary.com/wise-solution-inc/image/upload/v1685363365/rutini_dna5uu.png?itok=dtEaxSHy 1000w,
-  https://res.cloudinary.com/wise-solution-inc/image/upload/v1685363365/rutini_dna5uu.png?itok=dw6by-mk 1200w,
-  https://res.cloudinary.com/wise-solution-inc/image/upload/v1685363365/rutini_dna5uu.png 1280w"
+                        srcSet="https://res.cloudinary.com/wise-solution-inc/image/upload/v1685529134/Rutini-Alta-Gama-Single-Vineyard-Gualtallary-Cabernet-Franc-750-ml_ypvd2e.jpg?itok=wQFEyYj6 150w,
+                        https://res.cloudinary.com/wise-solution-inc/image/upload/v1685529134/Rutini-Alta-Gama-Single-Vineyard-Gualtallary-Cabernet-Franc-750-ml_ypvd2e.jpg?itok=_tEH2n4V 250w,
+                        https://res.cloudinary.com/wise-solution-inc/image/upload/v1685529134/Rutini-Alta-Gama-Single-Vineyard-Gualtallary-Cabernet-Franc-750-ml_ypvd2e.jpg?itok=4O6WBzMx 500w,
+  https://res.cloudinary.com/wise-solution-inc/image/upload/v1685529134/Rutini-Alta-Gama-Single-Vineyard-Gualtallary-Cabernet-Franc-750-ml_ypvd2e.jpg?itok=9rqQ4x2T 680w,
+  https://res.cloudinary.com/wise-solution-inc/image/upload/v1685529134/Rutini-Alta-Gama-Single-Vineyard-Gualtallary-Cabernet-Franc-750-ml_ypvd2e.jpg?itok=dtEaxSHy 1000w,
+  https://res.cloudinary.com/wise-solution-inc/image/upload/v1685529134/Rutini-Alta-Gama-Single-Vineyard-Gualtallary-Cabernet-Franc-750-ml_ypvd2e.jpg?itok=dw6by-mk 1200w,
+  https://res.cloudinary.com/wise-solution-inc/image/upload/v1685529134/Rutini-Alta-Gama-Single-Vineyard-Gualtallary-Cabernet-Franc-750-ml_ypvd2e.jpg 1280w"
                         sizes="(max-width: 1000px) 100vw, 1000px"
                       />
                         <img
                           sizes="(max-width: 1000px) 100vw, 1000px"
-                          srcSet="https://res.cloudinary.com/wise-solution-inc/image/upload/v1685363365/rutini_dna5uu.png?itok=wQFEyYj6 150w,
-  https://res.cloudinary.com/wise-solution-inc/image/upload/v1685363365/rutini_dna5uu.png?itok=_tEH2n4V 250w,
-  https://res.cloudinary.com/wise-solution-inc/image/upload/v1685363365/rutini_dna5uu.png?itok=4O6WBzMx 500w,
-  https://res.cloudinary.com/wise-solution-inc/image/upload/v1685363365/rutini_dna5uu.png?itok=9rqQ4x2T 680w,
-  https://res.cloudinary.com/wise-solution-inc/image/upload/v1685363365/rutini_dna5uu.png?itok=dtEaxSHy 1000w,
-  https://res.cloudinary.com/wise-solution-inc/image/upload/v1685363365/rutini_dna5uu.png?itok=dw6by-mk 1200w,
-  https://res.cloudinary.com/wise-solution-inc/image/upload/v1685363365/rutini_dna5uu.png 1280w"
-                          src="https://res.cloudinary.com/wise-solution-inc/image/upload/v1685363365/rutini_dna5uu.png?itok=dtEaxSHy"
+                          srcSet="https://res.cloudinary.com/wise-solution-inc/image/upload/v1685529134/Rutini-Alta-Gama-Single-Vineyard-Gualtallary-Cabernet-Franc-750-ml_ypvd2e.jpg?itok=wQFEyYj6 150w,
+  https://res.cloudinary.com/wise-solution-inc/image/upload/v1685529134/Rutini-Alta-Gama-Single-Vineyard-Gualtallary-Cabernet-Franc-750-ml_ypvd2e.jpg?itok=_tEH2n4V 250w,
+  https://res.cloudinary.com/wise-solution-inc/image/upload/v1685529134/Rutini-Alta-Gama-Single-Vineyard-Gualtallary-Cabernet-Franc-750-ml_ypvd2e.jpg?itok=4O6WBzMx 500w,
+  https://res.cloudinary.com/wise-solution-inc/image/upload/v1685529134/Rutini-Alta-Gama-Single-Vineyard-Gualtallary-Cabernet-Franc-750-ml_ypvd2e.jpg?itok=9rqQ4x2T 680w,
+  https://res.cloudinary.com/wise-solution-inc/image/upload/v1685529134/Rutini-Alta-Gama-Single-Vineyard-Gualtallary-Cabernet-Franc-750-ml_ypvd2e.jpg?itok=dtEaxSHy 1000w,
+  https://res.cloudinary.com/wise-solution-inc/image/upload/v1685529134/Rutini-Alta-Gama-Single-Vineyard-Gualtallary-Cabernet-Franc-750-ml_ypvd2e.jpg?itok=dw6by-mk 1200w,
+  https://res.cloudinary.com/wise-solution-inc/image/upload/v1685529134/Rutini-Alta-Gama-Single-Vineyard-Gualtallary-Cabernet-Franc-750-ml_ypvd2e.jpg 1280w"
+                          src="https://res.cloudinary.com/wise-solution-inc/image/upload/v1685529134/Rutini-Alta-Gama-Single-Vineyard-Gualtallary-Cabernet-Franc-750-ml_ypvd2e.jpg?itok=dtEaxSHy"
                           alt="San Francisco"
                           loading="lazy"
                           style={{
@@ -119,26 +119,26 @@ function Section2({text, color, pt}) {
                     <noscript>
                       <picture>
                         <source
-                          srcSet="https://res.cloudinary.com/wise-solution-inc/image/upload/v1685363365/rutini_dna5uu.png?itok=wQFEyYj6 150w,
-  https://res.cloudinary.com/wise-solution-inc/image/upload/v1685363365/rutini_dna5uu.png?itok=_tEH2n4V 250w,
-  https://res.cloudinary.com/wise-solution-inc/image/upload/v1685363365/rutini_dna5uu.png?itok=4O6WBzMx 500w,
-  https://res.cloudinary.com/wise-solution-inc/image/upload/v1685363365/rutini_dna5uu.png?itok=9rqQ4x2T 680w,
-  https://res.cloudinary.com/wise-solution-inc/image/upload/v1685363365/rutini_dna5uu.png?itok=dtEaxSHy 1000w,
-  https://res.cloudinary.com/wise-solution-inc/image/upload/v1685363365/rutini_dna5uu.png?itok=dw6by-mk 1200w,
-  https://res.cloudinary.com/wise-solution-inc/image/upload/v1685363365/rutini_dna5uu.png 1280w"
+                          srcSet="https://res.cloudinary.com/wise-solution-inc/image/upload/v1685529134/Rutini-Alta-Gama-Single-Vineyard-Gualtallary-Cabernet-Franc-750-ml_ypvd2e.jpg?itok=wQFEyYj6 150w,
+  https://res.cloudinary.com/wise-solution-inc/image/upload/v1685529134/Rutini-Alta-Gama-Single-Vineyard-Gualtallary-Cabernet-Franc-750-ml_ypvd2e.jpg?itok=_tEH2n4V 250w,
+  https://res.cloudinary.com/wise-solution-inc/image/upload/v1685529134/Rutini-Alta-Gama-Single-Vineyard-Gualtallary-Cabernet-Franc-750-ml_ypvd2e.jpg?itok=4O6WBzMx 500w,
+  https://res.cloudinary.com/wise-solution-inc/image/upload/v1685529134/Rutini-Alta-Gama-Single-Vineyard-Gualtallary-Cabernet-Franc-750-ml_ypvd2e.jpg?itok=9rqQ4x2T 680w,
+  https://res.cloudinary.com/wise-solution-inc/image/upload/v1685529134/Rutini-Alta-Gama-Single-Vineyard-Gualtallary-Cabernet-Franc-750-ml_ypvd2e.jpg?itok=dtEaxSHy 1000w,
+  https://res.cloudinary.com/wise-solution-inc/image/upload/v1685529134/Rutini-Alta-Gama-Single-Vineyard-Gualtallary-Cabernet-Franc-750-ml_ypvd2e.jpg?itok=dw6by-mk 1200w,
+  https://res.cloudinary.com/wise-solution-inc/image/upload/v1685529134/Rutini-Alta-Gama-Single-Vineyard-Gualtallary-Cabernet-Franc-750-ml_ypvd2e.jpg 1280w"
                           sizes="(max-width: 1000px) 100vw, 1000px"
                         />
                         <img
                           loading="lazy"
                           sizes="(max-width: 1000px) 100vw, 1000px"
-                          srcSet="https://res.cloudinary.com/wise-solution-inc/image/upload/v1685363365/rutini_dna5uu.png?itok=wQFEyYj6 150w,
-  https://res.cloudinary.com/wise-solution-inc/image/upload/v1685363365/rutini_dna5uu.png?itok=_tEH2n4V 250w,
-  https://res.cloudinary.com/wise-solution-inc/image/upload/v1685363365/rutini_dna5uu.png?itok=4O6WBzMx 500w,
-  https://res.cloudinary.com/wise-solution-inc/image/upload/v1685363365/rutini_dna5uu.png?itok=9rqQ4x2T 680w,
-  https://res.cloudinary.com/wise-solution-inc/image/upload/v1685363365/rutini_dna5uu.png?itok=dtEaxSHy 1000w,
-  https://res.cloudinary.com/wise-solution-inc/image/upload/v1685363365/rutini_dna5uu.png?itok=dw6by-mk 1200w,
-  https://res.cloudinary.com/wise-solution-inc/image/upload/v1685363365/rutini_dna5uu.png 1280w"
-                          src="https://res.cloudinary.com/wise-solution-inc/image/upload/v1685363365/rutini_dna5uu.png?itok=dtEaxSHy"
+                          srcSet="https://res.cloudinary.com/wise-solution-inc/image/upload/v1685529134/Rutini-Alta-Gama-Single-Vineyard-Gualtallary-Cabernet-Franc-750-ml_ypvd2e.jpg?itok=wQFEyYj6 150w,
+  https://res.cloudinary.com/wise-solution-inc/image/upload/v1685529134/Rutini-Alta-Gama-Single-Vineyard-Gualtallary-Cabernet-Franc-750-ml_ypvd2e.jpg?itok=_tEH2n4V 250w,
+  https://res.cloudinary.com/wise-solution-inc/image/upload/v1685529134/Rutini-Alta-Gama-Single-Vineyard-Gualtallary-Cabernet-Franc-750-ml_ypvd2e.jpg?itok=4O6WBzMx 500w,
+  https://res.cloudinary.com/wise-solution-inc/image/upload/v1685529134/Rutini-Alta-Gama-Single-Vineyard-Gualtallary-Cabernet-Franc-750-ml_ypvd2e.jpg?itok=9rqQ4x2T 680w,
+  https://res.cloudinary.com/wise-solution-inc/image/upload/v1685529134/Rutini-Alta-Gama-Single-Vineyard-Gualtallary-Cabernet-Franc-750-ml_ypvd2e.jpg?itok=dtEaxSHy 1000w,
+  https://res.cloudinary.com/wise-solution-inc/image/upload/v1685529134/Rutini-Alta-Gama-Single-Vineyard-Gualtallary-Cabernet-Franc-750-ml_ypvd2e.jpg?itok=dw6by-mk 1200w,
+  https://res.cloudinary.com/wise-solution-inc/image/upload/v1685529134/Rutini-Alta-Gama-Single-Vineyard-Gualtallary-Cabernet-Franc-750-ml_ypvd2e.jpg 1280w"
+                          src="https://res.cloudinary.com/wise-solution-inc/image/upload/v1685529134/Rutini-Alta-Gama-Single-Vineyard-Gualtallary-Cabernet-Franc-750-ml_ypvd2e.jpg?itok=dtEaxSHy"
                           alt="San Francisco"
                           style={{
                             position: "absolute",

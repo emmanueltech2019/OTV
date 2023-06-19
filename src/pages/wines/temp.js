@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import bg from "@/assets/wines/rutini_bg.jpeg";
+import bg from "@/assets/pauillic-france.jpeg";
 import wineImg from "@/assets/wines/rutini.png";
 import Image from "next/image";
 import Star from "@/assets/star.png";

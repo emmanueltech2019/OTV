@@ -92,7 +92,7 @@ Zuccardi</span>
                 <b>Poligonos Malbec San Pablo</b>
               </div>
               <div className="rounded-l-lg border-l border-gray-500 text-gray-500 text-3xl text-center py-3 w-[180px] px-5 border mt-[40px]">
-              €21.96
+              €21.96 
               </div> 
               {/* <span className="text-[#853924] text-2xl text-center">
               Best price from Pauillic winery

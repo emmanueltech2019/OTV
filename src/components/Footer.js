@@ -217,7 +217,7 @@ function Footer() {
               </li>
             </ul>
           </div>
-          <div className="footerMain__inner-col4">
+          {/* <div className="footerMain__inner-col4">
             <h4 className="footerMain__inner--heading">Proud Partner of</h4>
             <a
               href="https://www.visittheusa.com/"
@@ -229,7 +229,7 @@ function Footer() {
                 alt="The official travel site of the USA"
               />
             </a>
-          </div>
+          </div> */}
           <div className="footerMain__inner--copyright pb-10">
             <span>copyright</span>
             <span>2023</span>

@@ -92,7 +92,7 @@ function ZuccardiWine() {
                 <b>Poligonos San Pablo Cabernet Franc</b>
               </div>
               <div className="rounded-l-lg border-l border-gray-500 text-gray-500 text-3xl text-center py-3 w-[180px] px-5 border mt-[40px]">
-                $169.99
+              R$ 200
               </div>
               {/* <span className="text-[#853924] text-2xl text-center">
               Best price from Pauillic winery
@@ -138,21 +138,21 @@ function ZuccardiWine() {
                   alt={""}
                   className={"rounded-full h-10 w-10"}
                 />
-                <p className="pt-5">Winery in Paraje Altamira, Argentina</p>
+                <p className="pt-5">Uco Valley, Argentina</p>
               </div>
             </div>
             <div>
               <h4 className="py-5 text-2xl font-bold pt-5">Region style</h4>
               <div className="bg-gray-200 rounded-full py-3 px-10 ">
-                <p className="pt-5">Mendoza, Malbec</p>
+                <p className="pt-5">Argentinian, Malbec</p>
               </div>
             </div>
-            <div>
+            {/* <div>
               <h4 className="py-5 text-2xl font-bold pt-5 ">Grapes</h4>
               <div className="bg-gray-200 rounded-full py-3 px-10">
                 <p className="pt-5">Malbec</p>
               </div>
-            </div>
+            </div> */}
             {/* <div>
               <h4 className="py-5 text-2xl font-bold">Alcohol (ABV)</h4>
               <div className=" rounded-full py-3 px-10">

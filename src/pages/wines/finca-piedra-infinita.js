@@ -89,10 +89,10 @@ function ZuccardiWine() {
                 <span className="text-[#53528f] text-2xl">
 Zuccardi</span>
                 <br />
-                <b>Finca Piedra Infinita</b>
+                <b>Finca Piedra Infinita Malbec 2016</b>
               </div>
               <div className="rounded-l-lg border-l border-gray-500 text-gray-500 text-3xl text-center py-3 w-[180px] px-5 border mt-[40px]">
-                $169.99
+                R$ 1.400
               </div>
               {/* <span className="text-[#853924] text-2xl text-center">
               Best price from Pauillic winery

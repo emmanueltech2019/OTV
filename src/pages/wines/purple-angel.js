@@ -59,18 +59,18 @@ function PurpleAngelWine() {
         <div className="relative h-[70vh] bg-white">
           <Image src={bg} alt="" className="w-screen md:h-[50vh]" />
           <div
-            className={` absolute top-5 left-[10vw] md:left-[15vw]  ${
+            className={` absolute top-5 left-[5vw] md:left-[15vw]  ${
               isLightboxOpen ? "backdrop-filter backdrop-blur-lg" : ""
             }`}
           >
             <Image
               src={wineImg}
-              className="w-[40vw] h-[65vh] md:h-screen md:w-[20vw]"
+              className="w-[45vw] h-[65vh] md:h-screen md:w-[20vw]"
               alt=""
               onClick={() => openLightbox(wineImg)}
             />
           </div>
-          <div className="bg-white h-32 w-32 rounded-full absolute top-[200px] md:top-[300px] right-5 md:right-[42vw] flex flex-col justify-center items-center">
+          <div className="bg-white h-32 w-32 rounded-full absolute top-[120px] md:top-[300px] right-3 md:right-[42vw] flex flex-col justify-center items-center">
             <b className="text-3xl">4.4</b>
             <div className="flex items-center">
               <StarIcon className="w-[14px] h-[14px] text-[#53528f]" alt="" />
